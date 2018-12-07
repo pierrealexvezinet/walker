@@ -1,0 +1,141 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion "27.0.1"
+    defaultConfig {
+        applicationId "com.coach.walker"
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0.0"
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        allprojects {
+            repositories {
+                maven { url "https://jitpack.io" }
+                jcenter()
+                maven {
+                    url 'https://maven.google.com'
+                }
+            }
+        }
+    }
+
+
+    buildTypes {
+        release {
+            debuggable false
+            minifyEnabled false
+            //manifestPlaceholders = [appName: "Groupama release"]
+            useProguard false
+
+        }
+        preprod {
+            applicationIdSuffix = ".preprod"
+            //manifestPlaceholders = [appName: "Groupama preprod"]
+        }
+        debug {
+            debuggable true
+            //manifestPlaceholders = [appName: "Groupama debug"]
+            applicationIdSuffix = ".debug"
+        }
+    }
+    flavorDimensions 'version'
+    productFlavors {
+
+        walker {
+            dimension "version"
+            applicationId "com.coach.walker"
+            versionName "1.0.0"
+            manifestPlaceholders = [
+                    appIcon     : "@mipmap/iconapp",
+                    appName     : "Walker staging",
+                    authorithies: "com.coach.walker.debug.LocalStorageProvider"
+            ]
+        }
+
+
+        groupama {
+            dimension "version"
+            applicationId "com.coach.groupama"
+            versionName "1.0.0"
+            manifestPlaceholders = [
+                    appIcon     : "@mipmap/iconapp",
+                    appName     : "Groupama debug",
+                    authorithies: "com.coach.groupama.debug.LocalStorageProvider"
+            ]
+        }
+    }
+}
+
+
+dependencies {
+    configurations {
+        compile.exclude module: 'support-v13'
+    }
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    //noinspection GradleCompatible
+    compile 'com.android.support:appcompat-v7:27.1.1'
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:design:27.1.1'
+    compile 'org.greenrobot:eventbus:3.0.0'
+    compile 'com.squareup.retrofit2:retrofit:2.3.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.3.0'
+    compile 'com.github.rey5137:material:1.2.2'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    // Android SDK
+    compile 'org.greenrobot:eventbus:3.0.0'
+    compile 'com.android.support:recyclerview-v7:27.1.1'
+    compile 'com.google.android.gms:play-services-gcm:15.0.0'
+    compile 'com.google.android.gms:play-services-maps:15.0.0'
+    compile 'com.google.android.gms:play-services-location:15.0.0'
+    compile 'com.google.firebase:firebase-messaging:15.0.0'
+    compile 'com.google.android.gms:play-services-analytics:15.0.0'
+    compile 'com.google.android.gms:play-services-tagmanager:15.0.0'
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.google.code.gson:gson:2.6.2'
+    compile 'com.koushikdutta.async:androidasync:2.1.7'
+    compile files('libs/commons-lang3-3.7.jar')
+    //Youtube
+    compile files('libs/YouTubeAndroidPlayerApi.jar')
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    //DAILYMOTION
+    compile 'com.dailymotion.dailymotion-sdk-android:sdk:0.1.12'
+    compile 'com.jjoe64:graphview:4.2.1'
+    compile 'com.github.PhilJay:MPAndroidChart:v2.0.9'
+    compile 'joda-time:joda-time:2.9.9'
+    implementation 'pub.devrel:easypermissions:1.1.0'
+    implementation 'com.afollestad.material-dialogs:commons:0.9.4.4'
+    compile 'de.hdodenhof:circleimageview:2.2.0'
+
+    compile 'com.joooonho:selectableroundedimageview:1.0.1'
+    compile 'andhradroid.dev:aFilechooser:1.0.1'
+    compile 'com.shawnlin:number-picker:2.4.4'
+    compile 'pl.droidsonroids.gif:android-gif-drawable:1.2.11'
+    compile 'com.budiyev.android:circular-progress-bar:1.1.8'
+    compile files('libs/commons-io-2.6.jar')
+    compile 'com.github.deano2390:MaterialShowcaseView:1.2.0'
+    compile 'bg.devlabs.fullscreenvideoview:library:0.0.9'
+    compile 'com.jsibbold:zoomage:1.1.0'
+    compile 'org.apache.commons:commons-math3:3.0'
+    compile 'com.netflix.rxjava:rxjava-android:0.15.1'
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    compile 'io.reactivex.rxjava2:rxjava:2.1.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.android.support:multidex:1.0.3'
+    dependencies {
+        implementation 'com.g00fy2:versioncompare:1.2.7'
+    }
+}
+apply plugin: 'com.google.gms.google-services'

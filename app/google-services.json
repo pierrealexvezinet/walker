@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "438961830698",
+    "firebase_url": "https://walker-f4d6d.firebaseio.com",
+    "project_id": "walker-f4d6d",
+    "storage_bucket": "walker-f4d6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438961830698:android:bd4b521b9f5dd10d",
+        "android_client_info": {
+          "package_name": "com.coach.walker.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438961830698-l23et2rrceejum20tto98hiadh333qb0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYPh_YPRufuImhzzu8RJkLtQOGPQdBDYM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
