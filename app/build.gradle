@@ -70,6 +70,13 @@ android {
             ]
         }
     }
+    dexOptions {
+        incremental true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
 }
 
 
@@ -117,13 +124,13 @@ dependencies {
     implementation 'pub.devrel:easypermissions:1.1.0'
     implementation 'com.afollestad.material-dialogs:commons:0.9.4.4'
     compile 'de.hdodenhof:circleimageview:2.2.0'
-
     compile 'com.joooonho:selectableroundedimageview:1.0.1'
     compile 'andhradroid.dev:aFilechooser:1.0.1'
     compile 'com.shawnlin:number-picker:2.4.4'
     compile 'pl.droidsonroids.gif:android-gif-drawable:1.2.11'
     compile 'com.budiyev.android:circular-progress-bar:1.1.8'
     compile files('libs/commons-io-2.6.jar')
+    compile ':walker-android-library-release@aar'
     compile 'com.github.deano2390:MaterialShowcaseView:1.2.0'
     compile 'bg.devlabs.fullscreenvideoview:library:0.0.9'
     compile 'com.jsibbold:zoomage:1.1.0'
@@ -131,7 +138,8 @@ dependencies {
     compile 'com.netflix.rxjava:rxjava-android:0.15.1'
     compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
     compile 'io.reactivex.rxjava2:rxjava:2.1.0'
-    compile 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+    //compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+    //compile 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
     compile 'com.squareup.retrofit2:converter-gson:2.3.0'
     implementation 'com.android.support:multidex:1.0.3'
     dependencies {

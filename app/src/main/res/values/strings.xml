@@ -1,3 +1,5 @@
 <resources>
+    <string name="APPUPDATE_title">Walker</string>
     <string name="app_name">Walker</string>
+    <string name="NETWORK_connectionErrorMessage">Erreur réseau</string>
 </resources>

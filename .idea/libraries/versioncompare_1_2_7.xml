@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="versioncompare-1.2.7">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/versioncompare-1.2.7.aar/a7455428e351b68051f81c40973c85d8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/versioncompare-1.2.7.aar/a7455428e351b68051f81c40973c85d8/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.g00fy2/versioncompare/1.2.7/6423cad4278c759839a1bd8e53e36aea6d19b260/versioncompare-1.2.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

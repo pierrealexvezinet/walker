@@ -5,15 +5,11 @@ import com.coach.walker.ws.interfaces.IWalkerServices
 import rx.concurrency.Schedulers
 import rx.subscriptions.Subscriptions
 import com.coach.walker.ws.models.GitHubMember
-import okhttp3.ResponseBody
 import org.json.JSONArray
 import org.json.JSONObject
-import retrofit2.Call
 import rx.Observable
 import rx.Subscription
-import rx.Observable.OnSubscribeFunc
 import rx.Observer
-import rx.operators.OperationSubscribeOn.subscribeOn
 
 /**
  * Created by pierre-alexandrevezinet on 14/08/2018.

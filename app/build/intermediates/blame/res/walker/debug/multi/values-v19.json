@@ -1,0 +1,45 @@
+[
+    {
+        "outputFile": "/Users/pierre-alexandrevezinet/AndroidStudioProjects/walker/app/build/intermediates/incremental/mergeWalkerDebugResources/merged.dir/values-v19/values-v19.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 42,
+                    "endOffset": 93
+                },
+                "from": {
+                    "file": "/Users/pierre-alexandrevezinet/.gradle/caches/transforms-1/files-1.1/aFilechooser-1.0.1.aar/c5d6f2ce595f20a7413712215a66b904/res/values-v19/values-v19.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 185,
+                        "endColumn": 42,
+                        "endOffset": 223
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 98,
+                    "endColumn": 41,
+                    "endOffset": 135
+                },
+                "from": {
+                    "file": "/Users/pierre-alexandrevezinet/.gradle/caches/transforms-1/files-1.1/aFilechooser-1.0.1.aar/c5d6f2ce595f20a7413712215a66b904/res/values-v19/values-v19.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 228,
+                        "endColumn": 41,
+                        "endOffset": 265
+                    }
+                }
+            }
+        ]
+    }
+]

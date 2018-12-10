@@ -1,12 +1,12 @@
 package com.coach.walker.ws
 
 import android.text.TextUtils
+import com.coach.walker.ws.utils.SynchronousCallAdapterFactory
 import com.coach.walker.ws.utils.WAuthenticationInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import okhttp3.OkHttpClient
 import com.google.gson.GsonBuilder
-import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import java.util.concurrent.TimeUnit
 
 /**
@@ -32,7 +32,8 @@ class WServiceGenerator(baseUrl: String) {
     private val httpClient = OkHttpClient.Builder()
     private val builder = Retrofit.Builder()
             .baseUrl(baseUrl)
-            .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
+            //.addCallAdapterFactory(RxJavaCallAdapterFactory.create())
+            .addCallAdapterFactory(SynchronousCallAdapterFactory.create())
             .addConverterFactory(GsonConverterFactory.create(gson))
     /**
 
