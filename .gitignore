@@ -11,4 +11,4 @@ build/kotlin/
 app/src/main/res/font/
 app/src/main/res/menu/
 build/android-profile
-app/build
+app/build/tmp/kotlin-classes/walkerDebug
