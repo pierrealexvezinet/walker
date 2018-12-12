@@ -8,6 +8,8 @@ import com.coach.walker.controllers.WServiceController
 import com.coach.walker.events.WEvent
 import com.coach.walker.utils.WApplicationConstants
 import com.coach.walker.utils.WPrefsManager
+import com.walker.walker_android_sdk.models.WGitHubMember
+import kotlinx.android.synthetic.main.w_main_activity.*
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
@@ -22,15 +24,14 @@ class WMainActivity : AppCompatActivity() {
     private var wServiceController: WServiceController? = null
     private var prefsManager: WPrefsManager? = null
     private val bus = EventBus.getDefault()
+    private var listGitMember : ArrayList<WGitHubMember> = ArrayList()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.w_main_activity)
         prefsManager = WPrefsManager(this)
         wServiceController = WServiceController(this, prefsManager!!)
-
         wServiceController!!.execute(GITHUB_MEMBERS, WApplicationConstants.GET_MEMBER_GITHUB)
-
     }
 
     /**
@@ -46,8 +47,11 @@ class WMainActivity : AppCompatActivity() {
 
         //LOGIN USER
         if (event.eventName.equals(WApplicationConstants.GET_MEMBER_GITHUB)) {
-
             try {
+                listGitMember = mObject as ArrayList<WGitHubMember>
+                tv1.text = listGitMember[0].login + " followed by " + listGitMember[0].followers + " followers"
+                tv2.text = listGitMember[1].login + " followed by " + listGitMember[1].followers + " followers"
+                tv3.text = listGitMember[2].login + " followed by " + listGitMember[2].followers + " followers"
                 Toast.makeText(this, mObject.toString(), Toast.LENGTH_SHORT).show()
             } catch (e: Exception) {
                 Toast.makeText(this, e.message, Toast.LENGTH_SHORT).show()

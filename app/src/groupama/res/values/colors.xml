@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorGreenUman">#00654f</color><!-- couleur umanlife #1abc9c--><!-- couleur groupama #00654f-->
-    <color name="colorEtiquetteGreenChallengeCard">#a2c038</color><!-- couleur umanlife #1dbfc5--><!-- couleur groupama #a2c038-->
-    <color name="colorFontAppIcon">#00000000</color>
+    <color name="colorGreenUman">#1abc9c</color><!-- couleur umanlife #1abc9c--><!-- couleur groupama #00654f-->
+    <color name="colorEtiquetteGreenChallengeCard">#1dbfc5</color><!-- couleur umanlife #1dbfc5--><!-- couleur groupama #a2c038-->
+    <color name="colorHeaderQuestionVaccineGreen">#79e5de</color>
+    <color name="colorFontAppIcon">#bfbfc7</color>
+    <color name = "colorLightBlack">#de292929</color>
+    <color name = "colorLightGrey">#de9d9db1</color>
+    <color name = "colorMoreGrey">#de69697b</color>
+    <color name="colorRedVaccine">#ff7f87</color>
+    <color name ="colorGreyDescRecoVaccine">#de292929</color>
+    <color name ="colorRose">#33ff7f87</color>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
@@ -25,6 +32,8 @@
     <color name="colorBlueButton">#224B7C</color>
     <color name="colorBackgroundTuto">#224B7C</color>
     <color name="colorDarkGreyButton">#808080</color>
+    <color name="colorDarkGrey2Button">#80000000</color>
+
     <color name="colorBlueButtonObjectives">#5c9ee1</color>
     <color name="colorGreyButton">#a3a0a0</color>
     <color name="colorBlueSlept">#0c0c54</color>
@@ -48,11 +57,25 @@
     <color name="colorVerySilverGrey">#339d9db1</color>
     <color name="colorPaleGray">#eeeff0</color>
 
+
     <color name="colorBubbleBlue">#7bb1ff</color>
     <color name="colorBubblePink">#ff72bc</color>
     <color name="colorBubbleRed">#ff5f69</color>
-    <color name="colorBubbleGreen">#1dbfc5</color>
+    <color name="colorBubbleTurquoise">#1dbfc5</color>
+    <color name="colorBubbleYellow">#d97c30</color>
+    <color name="colorBubbleGreen">#28d428</color>
     <color name="colorBubblePurple">#8b9fff</color>
+
+    <color name="colorFilterBlue">#417bb1ff</color>
+    <color name="colorFilterPink">#41ff72bc</color>
+    <color name="colorFilterRed">#41ff5f69</color>
+    <color name="colorFilterTurquoise">#411dbfc5</color>
+    <color name="colorFilterYellow">#41d97c30</color>
+    <color name="colorFilterGreen">#4128d428</color>
+    <color name="colorFilterPurple">#418b9fff</color>
+
+    <color name="colorFilterGreenUman">#411abc9c</color>
+
     <color name="colorLightGray">#f5f5f5</color>
     <color name="circularObjectiveForeground">#1abc9c</color>
     <color name="circularObjectiveBackground">#f2f7fffe</color>

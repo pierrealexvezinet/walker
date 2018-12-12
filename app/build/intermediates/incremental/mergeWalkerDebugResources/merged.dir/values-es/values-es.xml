@@ -38,12 +38,7 @@
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Iniciar sesión con Google"</string>
     <string name="empty_directory">Directorio vacío</string>
     <string name="error_selecting_file">Error al seleccionar el archivo</string>
-    <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"Varias"</string>
-    <string msgid="9521340570209730" name="gcm_fallback_notification_channel_label">"Varias"</string>
     <string msgid="146198913615257606" name="search_menu_title">"Buscar"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
     <string name="storage_removed">Se ha retirado o desmontado el almacenamiento.</string>
-    <string msgid="1644004064658032424" name="tagmanager_preview_dialog_button">"Continuar"</string>
-    <string msgid="2087817895408680879" name="tagmanager_preview_dialog_message">"Modo de vista previa actualizado."</string>
-    <string msgid="5216190713680289069" name="tagmanager_preview_dialog_title">"Vista previa"</string>
 </resources>

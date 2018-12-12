@@ -38,6 +38,7 @@ class WServiceController() : Observer<Any> {
     private var token: String = ""
     private var wService: WSDKService = WSDKService(WApplicationConstants.BASE_GIT_HUB)
     private val bus = EventBus.getDefault()
+    private var listObjectReceived: ArrayList<Any> = ArrayList()
 
     var mSubscription: Subscription? = null
 
@@ -46,6 +47,8 @@ class WServiceController() : Observer<Any> {
         context = mContext
         if (mProgressViewCircular != null) {
             progressViewCircular = mProgressViewCircular
+            progressViewCircular!!.start()
+            progressViewCircular!!.visibility = View.VISIBLE
         }
     }
 
@@ -143,13 +146,14 @@ class WServiceController() : Observer<Any> {
     }
 
     override fun onCompleted() {
-    }
-
-    override fun onNext(response: Any?) {
-        bus.post(WEvent(response!!, eventName))
+        bus.post(WEvent(listObjectReceived, eventName))
         if (progressViewCircular != null) {
             progressViewCircular!!.stop()
             progressViewCircular!!.visibility = View.GONE
         }
+    }
+
+    override fun onNext(response: Any?) {
+        listObjectReceived.add(response!!)
     }
 }

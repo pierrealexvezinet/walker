@@ -8,29 +8,29 @@ package com.budiyev.android.circularprogressbar;
 
 public final class R {
     public static final class attr {
-        public static final int animateProgress = 0x7f03002a;
-        public static final int backgroundStrokeColor = 0x7f030036;
-        public static final int backgroundStrokeWidth = 0x7f030037;
-        public static final int drawBackgroundStroke = 0x7f0300f9;
-        public static final int foregroundStrokeCap = 0x7f030148;
-        public static final int foregroundStrokeColor = 0x7f030149;
-        public static final int foregroundStrokeWidth = 0x7f03014a;
-        public static final int indeterminate = 0x7f03015e;
-        public static final int indeterminateMinimumAngle = 0x7f03015f;
-        public static final int indeterminateRotationAnimationDuration = 0x7f030161;
-        public static final int indeterminateSweepAnimationDuration = 0x7f030162;
-        public static final int maximum = 0x7f0301d7;
-        public static final int progress = 0x7f030232;
-        public static final int progressAnimationDuration = 0x7f030233;
-        public static final int startAngle = 0x7f0302ca;
+        public static final int animateProgress = 0x7f04002b;
+        public static final int backgroundStrokeColor = 0x7f040037;
+        public static final int backgroundStrokeWidth = 0x7f040038;
+        public static final int drawBackgroundStroke = 0x7f0400fa;
+        public static final int foregroundStrokeCap = 0x7f040149;
+        public static final int foregroundStrokeColor = 0x7f04014a;
+        public static final int foregroundStrokeWidth = 0x7f04014b;
+        public static final int indeterminate = 0x7f04015f;
+        public static final int indeterminateMinimumAngle = 0x7f040160;
+        public static final int indeterminateRotationAnimationDuration = 0x7f040162;
+        public static final int indeterminateSweepAnimationDuration = 0x7f040163;
+        public static final int maximum = 0x7f0401d9;
+        public static final int progress = 0x7f040235;
+        public static final int progressAnimationDuration = 0x7f040236;
+        public static final int startAngle = 0x7f0402ce;
     }
     public static final class id {
-        public static final int butt = 0x7f080030;
-        public static final int round = 0x7f0800bf;
-        public static final int square = 0x7f0800e3;
+        public static final int butt = 0x7f090030;
+        public static final int round = 0x7f0900c3;
+        public static final int square = 0x7f0900e7;
     }
     public static final class styleable {
-        public static final int[] CircularProgressBar = { 0x7f03002a, 0x7f030036, 0x7f030037, 0x7f0300f9, 0x7f030148, 0x7f030149, 0x7f03014a, 0x7f03015e, 0x7f03015f, 0x7f030161, 0x7f030162, 0x7f0301d7, 0x7f030232, 0x7f030233, 0x7f0302ca };
+        public static final int[] CircularProgressBar = { 0x7f04002b, 0x7f040037, 0x7f040038, 0x7f0400fa, 0x7f040149, 0x7f04014a, 0x7f04014b, 0x7f04015f, 0x7f040160, 0x7f040162, 0x7f040163, 0x7f0401d9, 0x7f040235, 0x7f040236, 0x7f0402ce };
         public static final int CircularProgressBar_animateProgress = 0;
         public static final int CircularProgressBar_backgroundStrokeColor = 1;
         public static final int CircularProgressBar_backgroundStrokeWidth = 2;

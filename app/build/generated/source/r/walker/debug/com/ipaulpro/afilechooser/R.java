@@ -8,33 +8,33 @@ package com.ipaulpro.afilechooser;
 
 public final class R {
     public static final class bool {
-        public static final int use_activity = 0x7f040005;
-        public static final int use_provider = 0x7f040006;
+        public static final int use_activity = 0x7f050005;
+        public static final int use_provider = 0x7f050006;
     }
     public static final class dimen {
-        public static final int list_item_padding = 0x7f060089;
-        public static final int list_padding = 0x7f06008a;
+        public static final int list_item_padding = 0x7f070089;
+        public static final int list_padding = 0x7f07008a;
     }
     public static final class drawable {
-        public static final int ic_chooser = 0x7f070077;
-        public static final int ic_file = 0x7f07007a;
-        public static final int ic_folder = 0x7f07007b;
-        public static final int ic_provider = 0x7f070081;
+        public static final int ic_chooser = 0x7f080079;
+        public static final int ic_file = 0x7f08007c;
+        public static final int ic_folder = 0x7f08007d;
+        public static final int ic_provider = 0x7f080083;
     }
     public static final class layout {
-        public static final int file = 0x7f0a0029;
+        public static final int file = 0x7f0b0029;
     }
     public static final class string {
-        public static final int choose_file = 0x7f0c0027;
-        public static final int empty_directory = 0x7f0c003b;
-        public static final int error_selecting_file = 0x7f0c003c;
-        public static final int internal_storage = 0x7f0c0045;
-        public static final int storage_removed = 0x7f0c0059;
+        public static final int choose_file = 0x7f0d0027;
+        public static final int empty_directory = 0x7f0d003b;
+        public static final int error_selecting_file = 0x7f0d003c;
+        public static final int internal_storage = 0x7f0d0043;
+        public static final int storage_removed = 0x7f0d0057;
     }
     public static final class style {
-        public static final int fileChooserName = 0x7f0d01d1;
+        public static final int fileChooserName = 0x7f0e01d4;
     }
     public static final class xml {
-        public static final int mimetypes = 0x7f0f0000;
+        public static final int mimetypes = 0x7f100000;
     }
 }

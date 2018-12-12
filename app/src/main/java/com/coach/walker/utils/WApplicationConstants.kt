@@ -68,6 +68,7 @@ class WApplicationConstants {
         const val TOKEN: String = "TOKEN"
         const val PREF_APPLICATION: String = "PREF_APPLICATION"
 
+        const val GL_GET_SNAP_TO_ROADS: String = "GL_GET_SNAP_TO_ROADS"
 
     }
 

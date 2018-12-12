@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <array name="array_dot_active">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+        <item>@color/dot_dark_screen5</item>
+    </array>
+    <array name="array_dot_inactive">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+        <item>@color/dot_light_screen5</item>
+    </array>
     <attr format="reference" name="constraintSet"/>
     <attr format="reference" name="coordinatorLayoutStyle"/>
     <attr format="integer|reference" name="dp_animDuration"/>
@@ -193,6 +207,10 @@
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
     <color name="background_material_light">@color/material_grey_50</color>
+    <color name="bg_screen1">#C0C0C0</color>
+    <color name="bg_screen2">#C0C0C0</color>
+    <color name="bg_screen3">#C0C0C0</color>
+    <color name="bg_screen4">#C0C0C0</color>
     <color name="black">#000000</color>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
@@ -206,9 +224,80 @@
     <color name="cardview_light_background">#FFFAFAFA</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
+    <color name="circularObjectiveBackground">#f2f7fffe</color>
+    <color name="circularObjectiveForeground">#1abc9c</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="colorBackgroundTuto">#224B7C</color>
+    <color name="colorBarChartB">#1abc9c</color>
+    <color name="colorBarChartG">#862ad2b1</color>
+    <color name="colorBarChartR">#2c2ad2b1</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlue">#0000FF</color>
+    <color name="colorBlueBirthday">#23719B</color>
+    <color name="colorBlueButton">#224B7C</color>
+    <color name="colorBlueButtonObjectives">#5c9ee1</color>
+    <color name="colorBlueCard">#4CC2F1</color>
+    <color name="colorBlueCardLogo">#5dade2</color>
+    <color name="colorBlueDark">#312a70</color>
+    <color name="colorBlueSlept">#0c0c54</color>
+    <color name="colorBluedGrey">#9d9db1</color>
+    <color name="colorBordeauULP">#b73766</color>
+    <color name="colorBubbleBlue">#7bb1ff</color>
+    <color name="colorBubbleGreen">#28d428</color>
+    <color name="colorBubblePink">#ff72bc</color>
+    <color name="colorBubblePurple">#8b9fff</color>
+    <color name="colorBubbleRed">#ff5f69</color>
+    <color name="colorBubbleTurquoise">#1dbfc5</color>
+    <color name="colorBubbleYellow">#d97c30</color>
+    <color name="colorChartText">#9d9db1</color>
+    <color name="colorDark">#292938</color>
+    <color name="colorDarkGrey">#69697b</color>
+    <color name="colorDarkGrey2Button">#80000000</color>
+    <color name="colorDarkGreyButton">#808080</color>
+    <color name="colorEtiquetteGreenChallengeCard">#1dbfc5</color>
+    <color name="colorFilterBlue">#417bb1ff</color>
+    <color name="colorFilterGreen">#4128d428</color>
+    <color name="colorFilterGreenUman">#411abc9c</color>
+    <color name="colorFilterPink">#41ff72bc</color>
+    <color name="colorFilterPurple">#418b9fff</color>
+    <color name="colorFilterRed">#41ff5f69</color>
+    <color name="colorFilterTurquoise">#411dbfc5</color>
+    <color name="colorFilterYellow">#41d97c30</color>
+    <color name="colorFontAppIcon">#bfbfc7</color>
+    <color name="colorGreen">#61bf61</color>
+    <color name="colorGreenCard">#2DA337</color>
+    <color name="colorGreenMeausreCards">#1bba9f</color>
+    <color name="colorGreenUman">#1abc9c</color>
+    <color name="colorGreyButton">#a3a0a0</color>
+    <color name="colorGreyDescRecoVaccine">#de292929</color>
+    <color name="colorGreyLightUmanlife">#f4f4f4</color>
+    <color name="colorGreyVeryLight">#e9e8e8</color>
+    <color name="colorHeaderQuestionVaccineGreen">#79e5de</color>
+    <color name="colorLightBlack">#de292929</color>
+    <color name="colorLightGray">#f5f5f5</color>
+    <color name="colorLightGrey">#de9d9db1</color>
+    <color name="colorMoreGrey">#de69697b</color>
+    <color name="colorOrange">#ff9318</color>
+    <color name="colorPaleGray">#eeeff0</color>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPurple">#c473ec</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorRedDark">#f26119</color>
+    <color name="colorRedError">#ff6d6d</color>
+    <color name="colorRedVaccine">#ff7f87</color>
+    <color name="colorRose">#33ff7f87</color>
+    <color name="colorSilverGrey">#bfbfc7</color>
+    <color name="colorSky">#C6DCEA</color>
+    <color name="colorTabView">#3C3487</color>
+    <color name="colorTextPrimary">#fff</color>
+    <color name="colorTextSecondary">#fff</color>
+    <color name="colorUmanlife">#34495e</color>
+    <color name="colorVerySilverGrey">#339d9db1</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhiteTransparent">#80FFFFFF</color>
+    <color name="colorYellow">#ffbb00</color>
+    <color name="colorYellowCard">#FFC000</color>
     <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
     <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
     <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
@@ -230,6 +319,16 @@
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
+    <color name="dot_dark_screen1">@color/colorBlueButtonObjectives</color>
+    <color name="dot_dark_screen2">@color/colorBlueButtonObjectives</color>
+    <color name="dot_dark_screen3">@color/colorBlueButtonObjectives</color>
+    <color name="dot_dark_screen4">@color/colorBlueButtonObjectives</color>
+    <color name="dot_dark_screen5">@color/colorBlueButtonObjectives</color>
+    <color name="dot_light_screen1">#FFFFFF</color>
+    <color name="dot_light_screen2">#FFFFFF</color>
+    <color name="dot_light_screen3">#FFFFFF</color>
+    <color name="dot_light_screen4">#FFFFFF</color>
+    <color name="dot_light_screen5">#FFFFFF</color>
     <color name="error_color_material">#F4511E</color>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
@@ -257,6 +356,8 @@
     <color name="notification_action_color_filter">#ffffffff</color>
     <color name="notification_icon_bg_color">#ff9e9e9e</color>
     <color name="notification_material_background_media_default_color">#ff424242</color>
+    <color name="primaryColor">#00000000</color>
+    <color name="primaryColorDark">#4b5c93</color>
     <color name="primary_dark_material_dark">@android:color/black</color>
     <color name="primary_dark_material_light">@color/material_grey_600</color>
     <color name="primary_material_dark">@color/material_grey_900</color>
@@ -277,7 +378,8 @@
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
     <color name="tooltip_background_dark">#e6616161</color>
     <color name="tooltip_background_light">#e6FFFFFF</color>
-    <color name="transparent">#00ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="tutoColorMask">#9c000000</color>
     <color name="white">#ffffff</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode">
             
@@ -687,6 +789,7 @@
     <declare-styleable name="SnackBar"><attr format="reference|color" name="sb_backgroundColor"/><attr format="reference|dimension" name="sb_backgroundCornerRadius"/><attr format="reference|dimension" name="sb_horizontalPadding"/><attr format="reference|dimension" name="sb_verticalPadding"/><attr format="reference|dimension|integer" name="sb_width"><enum name="match_parent" value="-1"/><enum name="wrap_content" value="-2"/></attr><attr format="reference|dimension" name="sb_minWidth"/><attr format="reference|dimension" name="sb_maxWidth"/><attr format="reference|dimension|integer" name="sb_height"><enum name="match_parent" value="-1"/><enum name="wrap_content" value="-2"/></attr><attr format="reference|dimension" name="sb_minHeight"/><attr format="reference|dimension" name="sb_maxHeight"/><attr format="reference|dimension" name="sb_marginStart"/><attr format="reference|dimension" name="sb_marginBottom"/><attr format="reference|dimension" name="sb_textSize"/><attr format="reference|color" name="sb_textColor"/><attr format="reference" name="sb_textAppearance"/><attr format="reference|string" name="sb_text"/><attr format="boolean" name="sb_singleLine"/><attr format="reference|integer" name="sb_maxLines"/><attr format="reference|integer" name="sb_lines"/><attr format="integer" name="sb_ellipsize"><enum name="start" value="0x00000001"/><enum name="middle" value="0x00000002"/><enum name="end" value="0x00000003"/><enum name="marquee" value="0x00000004"/></attr><attr format="reference|dimension" name="sb_actionTextSize"/><attr format="reference|color" name="sb_actionTextColor"/><attr format="reference" name="sb_actionTextAppearance"/><attr format="reference|string" name="sb_actionText"/><attr format="reference" name="sb_actionRipple"/><attr format="reference|integer" name="sb_duration"/><attr format="reference" name="sb_inAnimation"/><attr format="reference" name="sb_outAnimation"/><attr format="boolean" name="sb_removeOnDismiss"/></declare-styleable>
     <declare-styleable name="SnackbarLayout"><attr name="android:maxWidth"/><attr name="elevation"/><attr format="dimension" name="maxActionInlineWidth"/></declare-styleable>
     <declare-styleable name="Spinner"><attr name="android:prompt"/><attr name="popupTheme"/><attr name="android:popupBackground"/><attr name="android:dropDownWidth"/><attr name="android:entries"/><attr name="android:gravity"/><attr name="android:minWidth"/><attr name="android:minHeight"/><attr format="boolean" name="spn_disableChildrenWhenDisabled"/><attr format="boolean" name="spn_labelEnable"/><attr format="reference|dimension" name="spn_labelPadding"/><attr format="reference|dimension" name="spn_labelTextSize"/><attr format="reference|color" name="spn_labelTextColor"/><attr format="reference" name="spn_labelTextAppearance"/><attr format="integer" name="spn_labelEllipsize"><enum name="start" value="0x00000001"/><enum name="middle" value="0x00000002"/><enum name="end" value="0x00000003"/><enum name="marquee" value="0x00000004"/></attr><attr format="string|reference" name="spn_label"/><attr format="reference" name="spn_popupItemAnimation"/><attr format="integer" name="spn_popupItemAnimOffset"/><attr format="reference|color" name="spn_arrowColor"/><attr format="reference|dimension" name="spn_arrowSize"/><attr format="reference|dimension" name="spn_arrowPadding"/><attr format="integer" name="spn_arrowAnimDuration"/><attr format="reference" name="spn_arrowInterpolator"/><attr format="boolean" name="spn_arrowAnimClockwise"/><attr format="boolean" name="spn_arrowSwitchMode"/><attr format="reference|color" name="spn_dividerColor"/><attr format="reference|dimension" name="spn_dividerHeight"/><attr format="reference|dimension" name="spn_dividerPadding"/><attr format="reference|integer" name="spn_dividerAnimDuration"/></declare-styleable>
+    <declare-styleable name="SwipeFlingAdapterView"><attr format="reference" name="SwipeFlingStyle"/><attr format="float" name="rotation_degrees"/><attr format="integer" name="min_adapter_stack"/><attr format="integer" name="max_visible"/></declare-styleable>
     <declare-styleable name="Switch"><attr format="reference|dimension" name="sw_trackSize"/><attr format="reference|color" name="sw_trackColor"/><attr format="integer" name="sw_trackCap"><enum name="butt" value="0x00000000"/><enum name="round" value="0x00000001"/><enum name="square" value="0x00000002"/></attr><attr format="reference|color" name="sw_thumbColor"/><attr format="reference|dimension" name="sw_thumbRadius"/><attr format="reference|dimension" name="sw_thumbElevation"/><attr format="reference|integer" name="sw_animDuration"/><attr format="reference" name="sw_interpolator"/><attr name="android:gravity"/><attr name="android:checked"/></declare-styleable>
     <declare-styleable name="SwitchCompat"><attr name="android:thumb"/><attr format="color" name="thumbTint"/><attr name="thumbTintMode">
             
@@ -1078,10 +1181,8 @@
     <string name="default_web_client_id" translatable="false">438961830698-l23et2rrceejum20tto98hiadh333qb0.apps.googleusercontent.com</string>
     <string name="empty_directory">Empty Directory</string>
     <string name="error_selecting_file">Error selecting File</string>
-    <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="firebase_database_url" translatable="false">https://walker-f4d6d.firebaseio.com</string>
     <string name="gcm_defaultSenderId" translatable="false">438961830698</string>
-    <string name="gcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="google_api_key" translatable="false">AIzaSyBYPh_YPRufuImhzzu8RJkLtQOGPQdBDYM</string>
     <string name="google_app_id" translatable="false">1:438961830698:android:bd4b521b9f5dd10d</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBYPh_YPRufuImhzzu8RJkLtQOGPQdBDYM</string>
@@ -1110,9 +1211,6 @@
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_removed">Storage was removed or unmounted.</string>
-    <string name="tagmanager_preview_dialog_button">Continue</string>
-    <string name="tagmanager_preview_dialog_message">Preview mode updated.</string>
-    <string name="tagmanager_preview_dialog_title">Preview</string>
     <string name="title_settings_dialog">Permissions Required</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
@@ -1125,9 +1223,18 @@
     </style>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorUmanlife</item>
+        <item name="colorPrimaryDark">@color/colorUmanlife</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionMenuTextColor">@color/colorWhite</item>
+        <item name="android:actionBarSize">10dp</item>
+        <item name="actionBarSize">10dp</item>
+        <item name="android:listDivider">@color/colorWhite</item>
+        <item name="SwipeFlingStyle">@style/SwipeFling</item>
+    </style>
+    <style name="AppTheme.Cyan" parent="Theme.AppCompat.NoActionBar">
+        ...
+        <item name="SwipeFlingStyle">@null</item>
     </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
@@ -2975,6 +3082,11 @@
         <item name="android:paddingLeft">@dimen/abc_action_bar_overflow_padding_start_material</item>
         <item name="android:paddingRight">@dimen/abc_action_bar_overflow_padding_end_material</item>
     </style>
+    <style name="SwipeFling">
+        <item name="rotation_degrees">15</item>
+        <item name="min_adapter_stack">6</item>
+        <item name="max_visible">4</item>
+    </style>
     <style name="TextAppearance.AppCompat" parent="Base.TextAppearance.AppCompat"/>
     <style name="TextAppearance.AppCompat.Body1" parent="Base.TextAppearance.AppCompat.Body1"/>
     <style name="TextAppearance.AppCompat.Body2" parent="Base.TextAppearance.AppCompat.Body2"/>
@@ -3349,6 +3461,14 @@
     <style name="Widget.Support.CoordinatorLayout" parent="android:Widget">
         <item name="statusBarBackground">#000000</item>
     </style>
+    <style name="dialogTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:title">Mon titre</item>
+        <item name="android:windowTitleBackgroundStyle">@color/colorBlueButton</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:buttonStyle">@style/Base.Animation.AppCompat.Dialog</item>
+
+    </style>
     <style name="fileChooserName">
         <item name="android:drawablePadding">@dimen/list_item_padding</item>
         <item name="android:ellipsize">end</item>
@@ -3357,5 +3477,44 @@
         <item name="android:paddingLeft">@dimen/list_item_padding</item>
         <item name="android:paddingRight">@dimen/list_item_padding</item>
         <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+    <style name="mCircularProgress">
+        <item name="cpd_padding">0dp</item>
+        <item name="cpd_initialAngle">0</item>
+        <item name="cpd_maxSweepAngle">270</item>
+        <item name="cpd_minSweepAngle">1</item>
+        <item name="cpd_strokeSize">4dp</item>
+        <item name="cpd_strokeColor">@color/colorBlueButtonObjectives</item>
+        <item name="cpd_strokeSecondaryColor">@android:color/transparent</item>
+        <item name="cpd_reverse">false</item>
+        <item name="cpd_rotateDuration">1000</item>
+        <item name="cpd_transformDuration">600</item>
+        <item name="cpd_keepDuration">200</item>
+        <item name="cpd_transformInterpolator">@android:anim/decelerate_interpolator</item>
+        <item name="pv_progressMode">buffer</item>
+        <item name="cpd_inAnimDuration">0</item>
+        <item name="cpd_outAnimDuration">@android:integer/config_mediumAnimTime</item>
+    </style>
+    <style name="mCircularProgressTransparant">
+        <item name="cpd_padding">0dp</item>
+        <item name="cpd_initialAngle">0</item>
+        <item name="cpd_maxSweepAngle">270</item>
+        <item name="cpd_minSweepAngle">1</item>
+        <item name="cpd_strokeSize">4dp</item>
+        <item name="cpd_strokeColor">@color/transparent</item>
+        <item name="cpd_strokeSecondaryColor">@android:color/transparent</item>
+        <item name="cpd_reverse">false</item>
+        <item name="cpd_rotateDuration">1000</item>
+        <item name="cpd_transformDuration">600</item>
+        <item name="cpd_keepDuration">200</item>
+        <item name="cpd_transformInterpolator">@android:anim/decelerate_interpolator</item>
+        <item name="pv_progressMode">buffer</item>
+        <item name="cpd_inAnimDuration">0</item>
+        <item name="cpd_outAnimDuration">@android:integer/config_mediumAnimTime</item>
+    </style>
+    <style name="menu_drawer_style">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:listDivider">@color/colorWhite</item>
     </style>
 </resources>

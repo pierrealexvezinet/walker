@@ -38,12 +38,7 @@
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Google 계정으로 로그인"</string>
     <string name="empty_directory">빈 디렉토리</string>
     <string name="error_selecting_file">파일 선택 오류</string>
-    <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"기타"</string>
-    <string msgid="9521340570209730" name="gcm_fallback_notification_channel_label">"기타"</string>
     <string msgid="146198913615257606" name="search_menu_title">"검색"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <string name="storage_removed">저장소가 제거되었습니다.</string>
-    <string msgid="1644004064658032424" name="tagmanager_preview_dialog_button">"계속"</string>
-    <string msgid="2087817895408680879" name="tagmanager_preview_dialog_message">"미리보기 모드가 업데이트되었습니다."</string>
-    <string msgid="5216190713680289069" name="tagmanager_preview_dialog_title">"미리보기"</string>
 </resources>
