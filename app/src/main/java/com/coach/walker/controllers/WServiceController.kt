@@ -36,7 +36,7 @@ class WServiceController() : Observer<Any> {
     private var progressViewCircular: ProgressView? = null
     private var context: Context? = null
     private var token: String = ""
-    private var wService: WSDKService = WSDKService(WApplicationConstants.BASE_GIT_HUB)
+    private var wService: WSDKService = WSDKService(WApplicationConstants.BASE_URL_WALKER_PROD)
     private val bus = EventBus.getDefault()
     private var listObjectReceived: ArrayList<Any> = ArrayList()
 
@@ -72,7 +72,7 @@ class WServiceController() : Observer<Any> {
         if (WApplication.isNetworkAvailable(context!!)) {
             when (wsName) {
             //GIT HUB
-                WApplicationConstants.GET_MEMBER_GITHUB -> mSubscription = Observable.from(param1 as Array<String>)
+                WApplicationConstants.GET_CITY_WEATHER -> mSubscription = Observable.from(param1 as Array<String>)
                         .mapMany({ s -> wService.getGitHubMember(s as String) })
                         .subscribeOn(Schedulers.threadPoolForIO())
                         .observeOn(AndroidSchedulers.mainThread())

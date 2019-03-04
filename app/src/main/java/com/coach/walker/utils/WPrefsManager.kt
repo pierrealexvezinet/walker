@@ -2,12 +2,12 @@ package com.coach.walker.utils
 
 import android.content.Context
 import android.content.SharedPreferences
-
+import com.coach.walker.utils.WApplicationConstants
 
 /**
- * Created by pierre-alexandrevezinet <pax@umanlife.com> on 01/06/2017.
+ * Created by pierre-alexandrevezinet on 20/02/2019.
+ *
  */
-
 
 class WPrefsManager constructor(_context: Context) {
     private var pref: SharedPreferences
@@ -25,7 +25,6 @@ class WPrefsManager constructor(_context: Context) {
         editor = pref.edit()
     }
 
-
     fun lastValidationStepActivity(currentStep: String) {
         editor.putString(LAST_STEP_VALIDATION_ACTIVITY, currentStep)
         editor.commit()
@@ -33,6 +32,13 @@ class WPrefsManager constructor(_context: Context) {
 
     fun setStringInPreferences(key: String, value: String) {
         editor.putString(key, value)
+        editor.commit()
+    }
+
+    fun setSetOftStringInPreferences(key: String, value: ArrayList<String>) {
+        val set = HashSet<String>()
+        set.addAll(value)
+        editor.putStringSet(key, set)
         editor.commit()
     }
 
@@ -48,6 +54,10 @@ class WPrefsManager constructor(_context: Context) {
 
     fun getStringFromPreferences(key: String): String {
         return pref.getString(key, "")
+    }
+
+    fun getSetOfStringFromPreferences(key: String): Set<String> {
+        return pref.getStringSet(key, null)
     }
 
     fun getIntegerFromPreferences(key: String): Int? {

@@ -7,31 +7,12 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endColumn": 53,
-                    "endOffset": 104
-                },
-                "from": {
-                    "file": "/Users/pierre-alexandrevezinet/.gradle/caches/transforms-1/files-1.1/aFilechooser-1.0.1.aar/c5d6f2ce595f20a7413712215a66b904/res/values-v11/values-v11.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 188,
-                        "endColumn": 53,
-                        "endOffset": 237
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 109,
-                    "endLine": 19,
+                    "endLine": 18,
                     "endColumn": 10,
-                    "endOffset": 1093
+                    "endOffset": 1039
                 },
                 "from": {
-                    "file": "/Users/pierre-alexandrevezinet/.gradle/caches/transforms-1/files-1.1/core-0.9.4.4.aar/55639680aa74b7052977254903227a89/res/values-v11/values-v11.xml",
+                    "file": "/Users/pierre-alexandrevezinet/.gradle/caches/transforms-1/files-1.1/core-0.9.4.4.aar/aca98e8921c27be6432d1e3b12a0d7c9/res/values-v11/values-v11.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -44,15 +25,15 @@
             },
             {
                 "to": {
-                    "startLine": 20,
+                    "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 1098,
-                    "endLine": 36,
+                    "startOffset": 1044,
+                    "endLine": 35,
                     "endColumn": 10,
-                    "endOffset": 2064
+                    "endOffset": 2010
                 },
                 "from": {
-                    "file": "/Users/pierre-alexandrevezinet/.gradle/caches/transforms-1/files-1.1/core-0.9.4.4.aar/55639680aa74b7052977254903227a89/res/values-v11/values-v11.xml",
+                    "file": "/Users/pierre-alexandrevezinet/.gradle/caches/transforms-1/files-1.1/core-0.9.4.4.aar/aca98e8921c27be6432d1e3b12a0d7c9/res/values-v11/values-v11.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,

@@ -1,28 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:background="@color/colorWhite"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+        <android.support.v4.widget.DrawerLayout
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/drawer_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:insetForeground="@color/colorWhite">
 
 
-
-    <TextView
-        android:id="@+id/tv1"
-        android:layout_width="wrap_content"
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="1" />
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
-    <TextView
-        android:id="@+id/tv2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="1" />
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/mytoolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
-    <TextView
-        android:id="@+id/tv3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="1" />
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabMode="fixed"
+            app:tabGravity="fill"/>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
 
-</LinearLayout>
+            <!-- The navigation drawer that comes from the left -->
+            <!-- Note that `android:layout_gravity` needs to be set to 'start'
+            <android.support.design.widget.NavigationView-->
+
+            <android.support.design.widget.NavigationView
+                android:id="@+id/nvView"
+                android:layout_width="370dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:background="@color/colorWhite"
+                android:fitsSystemWindows="false"
+                android:maxWidth="1000dp"
+                app:headerLayout="@layout/navigation_header_layout"
+                app:itemTextAppearance="@style/menu_drawer_style"
+                app:menu="@menu/drawer_menu" />
+
+
+        </android.support.v4.widget.DrawerLayout>
+
+    </FrameLayout>
+</RelativeLayout>

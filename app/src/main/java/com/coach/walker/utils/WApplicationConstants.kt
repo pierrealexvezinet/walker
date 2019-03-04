@@ -9,14 +9,12 @@ class WApplicationConstants {
     companion object {
 
 
-        const val BASE_URL_UMANLIFE_PROD: String = "https://app.umanlife.com"
-        const val BASE_URL_UMANLIFE_STAGING: String = "https://api-staging.umanlife.com"
-        const val BASE_URL_UMANLIFE_APP_PREPROD: String = "https://api-preprod.umanlife.com"
-        const val BASE_URL_GOOGLE_FITNESS: String = "https://www.googleapis.com/fitness/v1/"
-        const val BASE_GIT_HUB : String = "https://api.github.com/users/"
+        const val BASE_URL_WALKER_PROD: String = "https://app..com"
+        const val WALKER_TOKEN_MAPBOX : String = "pk.eyJ1Ijoid2Fsa2VycGF4IiwiYSI6ImNqc3VnODl3cDAyb3o0NGx0c3o3ZnpzbHAifQ.G0a_i0Aq9HJbBtGqTrIrMA"
 
         //WS CALL
-        const val GET_MEMBER_GITHUB: String = "GET_MEMBER_GITHUB"
+        const val GET_CITY_WEATHER: String = "GET_CITY_WEATHER"
+        const val GET_N_CITY_WEATHER: String = "GET_N_CITY_WEATHER"
 
         //FONTS
         const val OPEN_SANS_BOLD: String = "opensansbold.ttf"
@@ -59,6 +57,7 @@ class WApplicationConstants {
         const val ddMMyyyy: String = "dd/MM/yyyy"
         const val ddMM: String = "dd/MM"
 
+        //LOGGER
         const val LOG_WALKER = "LOG_WALKER"
 
         const val PERCENTAGE_TO_SHOW_TITLE_AT_TOOLBAR: Float = 0.6f
@@ -68,7 +67,8 @@ class WApplicationConstants {
         const val TOKEN: String = "TOKEN"
         const val PREF_APPLICATION: String = "PREF_APPLICATION"
 
-        const val GL_GET_SNAP_TO_ROADS: String = "GL_GET_SNAP_TO_ROADS"
+       //
+       const val ERROR_WALKER: String = "ERROR_WALKER"
 
     }
 

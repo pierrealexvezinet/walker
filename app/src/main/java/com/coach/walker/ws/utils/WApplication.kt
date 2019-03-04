@@ -1,6 +1,7 @@
 package com.coach.walker.ws.utils
 
 import android.annotation.SuppressLint
+import android.annotation.TargetApi
 import android.app.Activity
 import android.app.ActivityManager
 import android.content.Context
@@ -25,9 +26,6 @@ import android.view.animation.AlphaAnimation
 import android.widget.ImageView
 import com.coach.walker.R
 import com.coach.walker.utils.WApplicationConstants
-import org.joda.time.DateTime
-import org.joda.time.LocalDate
-import org.joda.time.Years
 import java.io.*
 import java.net.HttpURLConnection
 import java.net.URL
@@ -35,6 +33,7 @@ import java.nio.charset.Charset
 import java.nio.charset.StandardCharsets
 import java.text.ParseException
 import java.text.SimpleDateFormat
+import java.time.LocalDate
 import java.util.*
 import java.util.concurrent.TimeUnit
 
@@ -349,10 +348,10 @@ class WApplication {
             while (beginDate.before(actualDate)) {
                 // add one month to date per loop
 
-                var monthPlus = DateTime(beginDate).plusMonths(1)
-                var month = getMonthOfDate(monthPlus.toDate())
-                beginDate = monthPlus.toDate()
-                listMonth.add(getMonthInString(month, "fr_FR"))
+                //var monthPlus = DateTime(beginDate).plusMonths(1)
+                //var month = getMonthOfDate(monthPlus.toDate())
+                //beginDate = monthPlus.toDate()
+                //listMonth.add(getMonthInString(month, "fr_FR"))
             }
 
             return listMonth
@@ -586,20 +585,22 @@ class WApplication {
             return month
         }
 
-        /**
+
+                /**
          * @param first
          * *
          * @return Int
          */
-        fun getUserAge(first: Date): Int {
+        /*fun getUserAge(first: Date): Int {
 
             val day = DateFormat.format("dd", first) as String
             val monthNumber = DateFormat.format("MM", first) as String
             val year = DateFormat.format("yyyy", first) as String
 
-            val birthdate = LocalDate(year.toInt(), monthNumber.toInt(), day.toInt())
-            val now = LocalDate()
-            val age = Years.yearsBetween(birthdate, now)
+            val birthdate = LocalDate.now()
+            birthdate.atTime(year.toInt(), monthNumber.toInt(), day.toInt())
+            val now = LocalDate.now()
+            val age = Years.yearsBetween(birthdate., now)
 
             var ageToString: String = age.toString()
             if (age.toString().contains("P")) {
@@ -609,7 +610,7 @@ class WApplication {
                 ageToString = ageToString.replace("Y", "")
             }
             return ageToString.toInt()
-        }
+        }*/
 
         /**
          * @param month

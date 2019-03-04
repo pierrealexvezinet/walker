@@ -2,4 +2,12 @@
     <string name="APPUPDATE_title">Walker</string>
     <string name="app_name">Walker</string>
     <string name="NETWORK_connectionErrorMessage">Erreur réseau</string>
+    <string name="MENU.title">MENU</string>
+    <string name="MENU.dashboard">TABLEAU DE BORD</string>
+    <string name="MENU.about">A propos</string>
+    <string name="MENU.favorites">Favoris</string>
+    <string name="MENU.programs">PROGRAMMES</string>
+    <string name="MENU.healthbook">CARNET DE SANTÉ</string>
+    <string name="MENU.logOut">DÉCONNEXION</string>
+    <string name="MENU.profile">Profil</string>
 </resources>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="choose_file">Choose a file</string>
     <style name="MD_Dark" parent="Theme.AppCompat.Dialog.Alert">
     <item name="android:windowMinWidthMajor">@dimen/abc_dialog_min_width_major</item>
     <item name="android:windowMinWidthMinor">@dimen/abc_dialog_min_width_minor</item>

@@ -14,7 +14,6 @@
         <item>@color/dot_light_screen4</item>
         <item>@color/dot_light_screen5</item>
     </array>
-    <attr format="reference" name="constraintSet"/>
     <attr format="reference" name="coordinatorLayoutStyle"/>
     <attr format="integer|reference" name="dp_animDuration"/>
     <attr format="integer" name="dp_day"/>
@@ -41,94 +40,6 @@
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
     <attr format="boolean" name="isLightTheme"/>
-    <attr format="integer" name="layout_constraintBaseline_creator"/>
-    <attr format="reference|enum" name="layout_constraintBaseline_toBaselineOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="integer" name="layout_constraintBottom_creator"/>
-    <attr format="reference|enum" name="layout_constraintBottom_toBottomOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="reference|enum" name="layout_constraintBottom_toTopOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="string" name="layout_constraintDimensionRatio"/>
-    <attr format="reference|enum" name="layout_constraintEnd_toEndOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="reference|enum" name="layout_constraintEnd_toStartOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="dimension" name="layout_constraintGuide_begin"/>
-    <attr format="dimension" name="layout_constraintGuide_end"/>
-    <attr format="float" name="layout_constraintGuide_percent"/>
-    <attr name="layout_constraintHeight_default">
-        <enum name="spread" value="0"/>
-        <enum name="wrap" value="1"/>
-    </attr>
-    <attr format="dimension" name="layout_constraintHeight_max"/>
-    <attr format="dimension" name="layout_constraintHeight_min"/>
-    <attr format="float" name="layout_constraintHorizontal_bias"/>
-    <attr format="enum" name="layout_constraintHorizontal_chainStyle">
-        <enum name="spread" value="0"/>
-        <enum name="spread_inside" value="1"/>
-        <enum name="packed" value="2"/>
-    </attr>
-    <attr format="float" name="layout_constraintHorizontal_weight"/>
-    <attr format="integer" name="layout_constraintLeft_creator"/>
-    <attr format="reference|enum" name="layout_constraintLeft_toLeftOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="reference|enum" name="layout_constraintLeft_toRightOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="integer" name="layout_constraintRight_creator"/>
-    <attr format="reference|enum" name="layout_constraintRight_toLeftOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="reference|enum" name="layout_constraintRight_toRightOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="reference|enum" name="layout_constraintStart_toEndOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="reference|enum" name="layout_constraintStart_toStartOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="integer" name="layout_constraintTop_creator"/>
-    <attr format="reference|enum" name="layout_constraintTop_toBottomOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="reference|enum" name="layout_constraintTop_toTopOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="float" name="layout_constraintVertical_bias"/>
-    <attr format="enum" name="layout_constraintVertical_chainStyle">
-        <enum name="spread" value="0"/>
-        <enum name="spread_inside" value="1"/>
-        <enum name="packed" value="2"/>
-    </attr>
-    <attr format="float" name="layout_constraintVertical_weight"/>
-    <attr name="layout_constraintWidth_default">
-        <enum name="spread" value="0"/>
-        <enum name="wrap" value="1"/>
-    </attr>
-    <attr format="dimension" name="layout_constraintWidth_max"/>
-    <attr format="dimension" name="layout_constraintWidth_min"/>
-    <attr format="dimension" name="layout_editor_absoluteX"/>
-    <attr format="dimension" name="layout_editor_absoluteY"/>
-    <attr format="dimension" name="layout_goneMarginBottom"/>
-    <attr format="dimension" name="layout_goneMarginEnd"/>
-    <attr format="dimension" name="layout_goneMarginLeft"/>
-    <attr format="dimension" name="layout_goneMarginRight"/>
-    <attr format="dimension" name="layout_goneMarginStart"/>
-    <attr format="dimension" name="layout_goneMarginTop"/>
-    <attr name="layout_optimizationLevel">
-        <flag name="none" value="1"/>
-        <flag name="all" value="2"/>
-        <flag name="basic" value="4"/>
-        <flag name="chains" value="8"/>
-    </attr>
     <attr format="color" name="md_background_color"/>
     <attr format="reference" name="md_btn_negative_selector"/>
     <attr format="reference" name="md_btn_neutral_selector"/>
@@ -177,7 +88,6 @@
     <enum name="end" value="2"/>
   </attr>
     <attr format="color" name="md_widget_color"/>
-    <attr format="reference" name="numberPickerStyle"/>
     <attr format="float" name="pv_progress"/>
     <attr format="integer" name="pv_progressMode">
         <enum name="determinate" value="0x00000000"/>
@@ -195,8 +105,6 @@
     <bool name="abc_config_actionMenuItemAllCaps">true</bool>
     <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
     <bool name="md_is_tablet">false</bool>
-    <bool name="use_activity">true</bool>
-    <bool name="use_provider">false</bool>
     <color name="abc_input_method_navigation_guard">@android:color/black</color>
     <color name="abc_search_url_text_normal">#7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
@@ -211,7 +119,6 @@
     <color name="bg_screen2">#C0C0C0</color>
     <color name="bg_screen3">#C0C0C0</color>
     <color name="bg_screen4">#C0C0C0</color>
-    <color name="black">#000000</color>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
@@ -298,14 +205,6 @@
     <color name="colorWhiteTransparent">#80FFFFFF</color>
     <color name="colorYellow">#ffbb00</color>
     <color name="colorYellowCard">#FFC000</color>
-    <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
-    <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
-    <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
-    <color name="common_google_signin_btn_text_dark_pressed">@android:color/white</color>
-    <color name="common_google_signin_btn_text_light_default">#90000000</color>
-    <color name="common_google_signin_btn_text_light_disabled">#1F000000</color>
-    <color name="common_google_signin_btn_text_light_focused">#90000000</color>
-    <color name="common_google_signin_btn_text_light_pressed">#DE000000</color>
     <color name="design_bottom_navigation_shadow_color">#14000000</color>
     <color name="design_fab_shadow_end_color">@android:color/transparent</color>
     <color name="design_fab_shadow_mid_color">#14000000</color>
@@ -334,6 +233,11 @@
     <color name="foreground_material_light">@android:color/black</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
+    <color name="mapbox_blue">#1E8CAB</color>
+    <color name="mapbox_gray">#7D7F80</color>
+    <color name="mapbox_gray_dark">#5F5F5F</color>
+    <color name="mapbox_location_layer_blue">#4A90E2</color>
+    <color name="mapbox_location_layer_gray">#A1B0C0</color>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
     <color name="material_blue_grey_950">#ff21272b</color>
@@ -380,7 +284,6 @@
     <color name="tooltip_background_light">#e6FFFFFF</color>
     <color name="transparent">#00000000</color>
     <color name="tutoColorMask">#9c000000</color>
-    <color name="white">#ffffff</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode">
             
             <enum name="normal" value="0"/>
@@ -469,7 +372,6 @@
     <declare-styleable name="ButtonBarLayout"><attr format="boolean" name="allowStacking"/></declare-styleable>
     <declare-styleable name="CardView"><attr format="color" name="cardBackgroundColor"/><attr format="dimension" name="cardCornerRadius"/><attr format="dimension" name="cardElevation"/><attr format="dimension" name="cardMaxElevation"/><attr format="boolean" name="cardUseCompatPadding"/><attr format="boolean" name="cardPreventCornerOverlap"/><attr format="dimension" name="contentPadding"/><attr format="dimension" name="contentPaddingLeft"/><attr format="dimension" name="contentPaddingRight"/><attr format="dimension" name="contentPaddingTop"/><attr format="dimension" name="contentPaddingBottom"/></declare-styleable>
     <declare-styleable name="CheckBoxDrawable"><attr format="reference|dimension" name="cbd_width"/><attr format="reference|dimension" name="cbd_height"/><attr format="reference|dimension" name="cbd_boxSize"/><attr format="reference|dimension" name="cbd_cornerRadius"/><attr format="reference|dimension" name="cbd_strokeSize"/><attr format="reference|color" name="cbd_strokeColor"/><attr format="reference|color" name="cbd_tickColor"/><attr format="reference|integer" name="cbd_animDuration"/></declare-styleable>
-    <declare-styleable name="CircleImageView"><attr format="dimension" name="civ_border_width"/><attr format="color" name="civ_border_color"/><attr format="boolean" name="civ_border_overlay"/><attr format="color" name="civ_fill_color"/><attr format="color" name="civ_circle_background_color"/></declare-styleable>
     <declare-styleable name="CircularProgressBar"><attr format="float" name="maximum"/><attr format="float" name="progress"/><attr format="boolean" name="animateProgress"/><attr format="integer" name="progressAnimationDuration"/><attr format="color" name="foregroundStrokeColor"/><attr format="dimension" name="foregroundStrokeWidth"/><attr format="boolean" name="drawBackgroundStroke"/><attr format="color" name="backgroundStrokeColor"/><attr format="dimension" name="backgroundStrokeWidth"/><attr format="float" name="startAngle"/><attr format="boolean" name="indeterminate"/><attr format="float" name="indeterminateMinimumAngle"/><attr format="integer" name="indeterminateSweepAnimationDuration"/><attr format="integer" name="indeterminateRotationAnimationDuration"/><attr format="enum" name="foregroundStrokeCap">
             <enum name="butt" value="0"/>
             <enum name="round" value="1"/>
@@ -542,8 +444,6 @@
             
             <enum name="add" value="16"/>
         </attr></declare-styleable>
-    <declare-styleable name="ConstraintLayout_Layout"><attr name="android:orientation"/><attr name="android:minWidth"/><attr name="android:minHeight"/><attr name="android:maxWidth"/><attr name="android:maxHeight"/><attr name="layout_optimizationLevel"/><attr name="constraintSet"/><attr name="layout_constraintGuide_begin"/><attr name="layout_constraintGuide_end"/><attr name="layout_constraintGuide_percent"/><attr name="layout_constraintLeft_toLeftOf"/><attr name="layout_constraintLeft_toRightOf"/><attr name="layout_constraintRight_toLeftOf"/><attr name="layout_constraintRight_toRightOf"/><attr name="layout_constraintTop_toTopOf"/><attr name="layout_constraintTop_toBottomOf"/><attr name="layout_constraintBottom_toTopOf"/><attr name="layout_constraintBottom_toBottomOf"/><attr name="layout_constraintBaseline_toBaselineOf"/><attr name="layout_constraintStart_toEndOf"/><attr name="layout_constraintStart_toStartOf"/><attr name="layout_constraintEnd_toStartOf"/><attr name="layout_constraintEnd_toEndOf"/><attr name="layout_goneMarginLeft"/><attr name="layout_goneMarginTop"/><attr name="layout_goneMarginRight"/><attr name="layout_goneMarginBottom"/><attr name="layout_goneMarginStart"/><attr name="layout_goneMarginEnd"/><attr name="layout_constraintHorizontal_bias"/><attr name="layout_constraintVertical_bias"/><attr name="layout_constraintWidth_default"/><attr name="layout_constraintHeight_default"/><attr name="layout_constraintWidth_min"/><attr name="layout_constraintWidth_max"/><attr name="layout_constraintHeight_min"/><attr name="layout_constraintHeight_max"/><attr name="layout_constraintLeft_creator"/><attr name="layout_constraintTop_creator"/><attr name="layout_constraintRight_creator"/><attr name="layout_constraintBottom_creator"/><attr name="layout_constraintBaseline_creator"/><attr name="layout_constraintDimensionRatio"/><attr name="layout_constraintHorizontal_weight"/><attr name="layout_constraintVertical_weight"/><attr name="layout_constraintHorizontal_chainStyle"/><attr name="layout_constraintVertical_chainStyle"/><attr name="layout_editor_absoluteX"/><attr name="layout_editor_absoluteY"/></declare-styleable>
-    <declare-styleable name="ConstraintSet"><attr name="android:orientation"/><attr name="android:id"/><attr name="android:visibility"/><attr name="android:alpha"/><attr name="android:elevation"/><attr name="android:rotationX"/><attr name="android:rotationY"/><attr name="android:scaleX"/><attr name="android:scaleY"/><attr name="android:transformPivotX"/><attr name="android:transformPivotY"/><attr name="android:translationX"/><attr name="android:translationY"/><attr name="android:translationZ"/><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_marginStart"/><attr name="android:layout_marginBottom"/><attr name="android:layout_marginTop"/><attr name="android:layout_marginEnd"/><attr name="android:layout_marginLeft"/><attr name="android:layout_marginRight"/><attr name="layout_constraintGuide_begin"/><attr name="layout_constraintGuide_end"/><attr name="layout_constraintGuide_percent"/><attr name="layout_constraintLeft_toLeftOf"/><attr name="layout_constraintLeft_toRightOf"/><attr name="layout_constraintRight_toLeftOf"/><attr name="layout_constraintRight_toRightOf"/><attr name="layout_constraintTop_toTopOf"/><attr name="layout_constraintTop_toBottomOf"/><attr name="layout_constraintBottom_toTopOf"/><attr name="layout_constraintBottom_toBottomOf"/><attr name="layout_constraintBaseline_toBaselineOf"/><attr name="layout_constraintStart_toEndOf"/><attr name="layout_constraintStart_toStartOf"/><attr name="layout_constraintEnd_toStartOf"/><attr name="layout_constraintEnd_toEndOf"/><attr name="layout_goneMarginLeft"/><attr name="layout_goneMarginTop"/><attr name="layout_goneMarginRight"/><attr name="layout_goneMarginBottom"/><attr name="layout_goneMarginStart"/><attr name="layout_goneMarginEnd"/><attr name="layout_constraintHorizontal_bias"/><attr name="layout_constraintVertical_bias"/><attr name="layout_constraintWidth_default"/><attr name="layout_constraintHeight_default"/><attr name="layout_constraintWidth_min"/><attr name="layout_constraintWidth_max"/><attr name="layout_constraintHeight_min"/><attr name="layout_constraintHeight_max"/><attr name="layout_constraintLeft_creator"/><attr name="layout_constraintTop_creator"/><attr name="layout_constraintRight_creator"/><attr name="layout_constraintBottom_creator"/><attr name="layout_constraintBaseline_creator"/><attr name="layout_constraintDimensionRatio"/><attr name="layout_constraintHorizontal_weight"/><attr name="layout_constraintVertical_weight"/><attr name="layout_constraintHorizontal_chainStyle"/><attr name="layout_constraintVertical_chainStyle"/><attr name="layout_editor_absoluteX"/><attr name="layout_editor_absoluteY"/></declare-styleable>
     <declare-styleable name="CoordinatorLayout"><attr format="reference" name="keylines"/><attr format="color|reference" name="statusBarBackground"/></declare-styleable>
     <declare-styleable name="CoordinatorLayout_Layout"><attr name="android:layout_gravity"/><attr format="string" name="layout_behavior"/><attr format="reference" name="layout_anchor"/><attr format="integer" name="layout_keyline"/><attr name="layout_anchorGravity">
             
@@ -613,14 +513,14 @@
     <declare-styleable name="Dialog"><attr name="android:layout_width"/><attr name="android:layout_height"/><attr format="float" name="di_dimAmount"/><attr format="color|reference" name="di_backgroundColor"/><attr format="dimension|reference" name="di_elevation"/><attr format="dimension|reference" name="di_maxElevation"/><attr format="dimension|reference" name="di_cornerRadius"/><attr format="integer" name="di_layoutDirection"><enum name="ltr" value="0"/><enum name="rtl" value="1"/><enum name="locale" value="3"/></attr><attr format="dimension|reference" name="di_maxWidth"/><attr format="dimension|reference" name="di_maxHeight"/><attr format="reference" name="di_titleTextAppearance"/><attr format="color|reference" name="di_titleTextColor"/><attr format="reference" name="di_actionBackground"/><attr format="reference" name="di_actionRipple"/><attr format="reference" name="di_actionTextAppearance"/><attr format="color|reference" name="di_actionTextColor"/><attr format="reference" name="di_positiveActionBackground"/><attr format="reference" name="di_positiveActionRipple"/><attr format="reference" name="di_positiveActionTextAppearance"/><attr format="color|reference" name="di_positiveActionTextColor"/><attr format="reference" name="di_negativeActionBackground"/><attr format="reference" name="di_negativeActionRipple"/><attr format="reference" name="di_negativeActionTextAppearance"/><attr format="color|reference" name="di_negativeActionTextColor"/><attr format="reference" name="di_neutralActionBackground"/><attr format="reference" name="di_neutralActionRipple"/><attr format="reference" name="di_neutralActionTextAppearance"/><attr format="color|reference" name="di_neutralActionTextColor"/><attr format="color|reference" name="di_dividerColor"/><attr format="dimension|reference" name="di_dividerHeight"/><attr format="reference" name="di_inAnimation"/><attr format="reference" name="di_outAnimation"/><attr format="boolean" name="di_cancelable"/><attr format="boolean" name="di_canceledOnTouchOutside"/></declare-styleable>
     <declare-styleable name="DrawerArrowToggle"><attr format="color" name="color"/><attr format="boolean" name="spinBars"/><attr format="dimension" name="drawableSize"/><attr format="dimension" name="gapBetweenBars"/><attr format="dimension" name="arrowHeadLength"/><attr format="dimension" name="arrowShaftLength"/><attr format="dimension" name="barLength"/><attr format="dimension" name="thickness"/></declare-styleable>
     <declare-styleable name="EditText"><attr format="reference" name="et_inputId"/><attr format="boolean" name="et_labelEnable"/><attr format="reference|dimension" name="et_labelPadding"/><attr format="reference|dimension" name="et_labelTextSize"/><attr format="reference|color" name="et_labelTextColor"/><attr format="reference" name="et_labelTextAppearance"/><attr format="integer" name="et_labelEllipsize"><enum name="start" value="0x00000001"/><enum name="middle" value="0x00000002"/><enum name="end" value="0x00000003"/><enum name="marquee" value="0x00000004"/></attr><attr format="reference" name="et_labelInAnim"/><attr format="reference" name="et_labelOutAnim"/><attr format="integer" name="et_supportMode"><enum name="none" value="0x00000000"/><enum name="helper" value="0x00000001"/><enum name="helperWithError" value="0x00000002"/><enum name="charCounter" value="0x00000003"/></attr><attr format="reference|integer" name="et_supportMaxChars"/><attr format="reference|string" name="et_helper"/><attr format="reference|string" name="et_error"/><attr format="reference|dimension" name="et_supportPadding"/><attr format="reference|dimension" name="et_supportTextSize"/><attr format="reference|color" name="et_supportTextColor"/><attr format="reference|color" name="et_supportTextErrorColor"/><attr format="reference" name="et_supportTextAppearance"/><attr format="boolean" name="et_supportSingleLine"/><attr format="reference|integer" name="et_supportMaxLines"/><attr format="reference|integer" name="et_supportLines"/><attr format="integer" name="et_supportEllipsize"><enum name="start" value="0x00000001"/><enum name="middle" value="0x00000002"/><enum name="end" value="0x00000003"/><enum name="marquee" value="0x00000004"/></attr><attr format="reference|color" name="et_dividerColor"/><attr format="reference|color" name="et_dividerErrorColor"/><attr format="reference|dimension" name="et_dividerHeight"/><attr format="reference|dimension" name="et_dividerPadding"/><attr format="reference|integer" name="et_dividerAnimDuration"/><attr format="boolean" name="et_dividerCompoundPadding"/><attr format="integer" name="et_autoCompleteMode"><enum name="none" value="0"/><enum name="single" value="1"/><enum name="multi" value="2"/></attr></declare-styleable>
-    <declare-styleable name="FloatingActionButton"><attr format="reference|color" name="fab_backgroundColor"/><attr format="reference|integer" name="fab_backgroundAnimDuration"/><attr format="reference|dimension" name="fab_radius"/><attr format="reference|dimension" name="fab_elevation"/><attr format="reference" name="fab_iconSrc"/><attr format="reference" name="fab_iconLineMorphing"/><attr format="reference|dimension" name="fab_iconSize"/><attr format="reference" name="fab_interpolator"/><attr format="reference|integer" name="fab_animDuration"/><attr name="backgroundTint"/><attr name="backgroundTintMode"/><attr format="color" name="rippleColor"/><attr name="fabSize">
+    <declare-styleable name="FloatingActionButton"><attr name="backgroundTint"/><attr name="backgroundTintMode"/><attr format="color" name="rippleColor"/><attr name="fabSize">
             
             <enum name="auto" value="-1"/>
             
             <enum name="normal" value="0"/>
             
             <enum name="mini" value="1"/>
-        </attr><attr format="dimension" name="fabCustomSize"/><attr name="elevation"/><attr format="dimension" name="pressedTranslationZ"/><attr format="dimension" name="borderWidth"/><attr format="boolean" name="useCompatPadding"/></declare-styleable>
+        </attr><attr format="dimension" name="fabCustomSize"/><attr name="elevation"/><attr format="dimension" name="pressedTranslationZ"/><attr format="dimension" name="borderWidth"/><attr format="boolean" name="useCompatPadding"/><attr format="reference|color" name="fab_backgroundColor"/><attr format="reference|integer" name="fab_backgroundAnimDuration"/><attr format="reference|dimension" name="fab_radius"/><attr format="reference|dimension" name="fab_elevation"/><attr format="reference" name="fab_iconSrc"/><attr format="reference" name="fab_iconLineMorphing"/><attr format="reference|dimension" name="fab_iconSize"/><attr format="reference" name="fab_interpolator"/><attr format="reference|integer" name="fab_animDuration"/></declare-styleable>
     <declare-styleable name="FloatingActionButton_Behavior_Layout"><attr format="boolean" name="behavior_autoHide"/></declare-styleable>
     <declare-styleable name="FontFamily"><attr format="string" name="fontProviderAuthority"/><attr format="string" name="fontProviderPackage"/><attr format="string" name="fontProviderQuery"/><attr format="reference" name="fontProviderCerts"/><attr name="fontProviderFetchStrategy">
             
@@ -636,11 +536,7 @@
             <enum name="italic" value="1"/>
         </attr><attr format="reference" name="font"/><attr format="integer" name="fontWeight"/><attr name="android:fontStyle"/><attr name="android:font"/><attr name="android:fontWeight"/></declare-styleable>
     <declare-styleable name="ForegroundLinearLayout"><attr name="android:foreground"/><attr name="android:foregroundGravity"/><attr format="boolean" name="foregroundInsidePadding"/></declare-styleable>
-    <declare-styleable name="GifTextureView"><attr format="reference|string" name="gifSource"/><attr format="boolean" name="isOpaque"/></declare-styleable>
-    <declare-styleable name="GifView"><attr format="boolean" name="freezesAnimation"/><attr format="integer" name="loopCount"/></declare-styleable>
-    <declare-styleable name="GraphViewXML"><attr format="string" name="seriesData"/><attr format="string" name="seriesType"/><attr format="string" name="seriesTitle"/><attr name="android:title"/><attr format="color" name="seriesColor"/></declare-styleable>
     <declare-styleable name="LineMorphingDrawable"><attr format="reference" name="lmd_state"/><attr format="integer" name="lmd_curState"/><attr format="reference|dimension" name="lmd_padding"/><attr format="reference|dimension" name="lmd_paddingLeft"/><attr format="reference|dimension" name="lmd_paddingTop"/><attr format="reference|dimension" name="lmd_paddingRight"/><attr format="reference|dimension" name="lmd_paddingBottom"/><attr format="reference|integer" name="lmd_animDuration"/><attr format="reference" name="lmd_interpolator"/><attr format="reference|dimension" name="lmd_strokeSize"/><attr format="reference|color" name="lmd_strokeColor"/><attr format="integer" name="lmd_strokeCap"><enum name="butt" value="0x00000000"/><enum name="round" value="0x00000001"/><enum name="square" value="0x00000002"/></attr><attr format="integer" name="lmd_strokeJoin"><enum name="miter" value="0x00000000"/><enum name="round" value="0x00000001"/><enum name="bevel" value="0x00000002"/></attr><attr format="boolean" name="lmd_clockwise"/><attr format="integer" name="lmd_layoutDirection"><enum name="ltr" value="0x00000000"/><enum name="rtl" value="0x00000001"/><enum name="locale" value="0x00000003"/></attr></declare-styleable>
-    <declare-styleable name="LinearConstraintLayout"><attr name="android:orientation"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat"><attr name="android:orientation"/><attr name="android:gravity"/><attr name="android:baselineAligned"/><attr name="android:baselineAlignedChildIndex"/><attr name="android:weightSum"/><attr format="boolean" name="measureWithLargestChild"/><attr name="divider"/><attr name="showDividers">
             <flag name="none" value="0"/>
             <flag name="beginning" value="1"/>
@@ -650,27 +546,7 @@
     <declare-styleable name="LinearLayoutCompat_Layout"><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_weight"/><attr name="android:layout_gravity"/></declare-styleable>
     <declare-styleable name="LinearProgressDrawable"><attr format="reference|dimension|fraction" name="lpd_maxLineWidth"/><attr format="reference|dimension|fraction" name="lpd_minLineWidth"/><attr format="reference|dimension" name="lpd_strokeSize"/><attr format="reference|color" name="lpd_strokeColor"/><attr format="reference|color" name="lpd_strokeSecondaryColor"/><attr format="reference" name="lpd_strokeColors"/><attr format="boolean" name="lpd_reverse"/><attr format="reference|integer" name="lpd_travelDuration"/><attr format="reference|integer" name="lpd_transformDuration"/><attr format="reference|integer" name="lpd_keepDuration"/><attr format="reference" name="lpd_transformInterpolator"/><attr format="reference|integer" name="lpd_inAnimDuration"/><attr format="reference|integer" name="lpd_outAnimDuration"/><attr format="integer" name="lpd_verticalAlign"><enum name="top" value="0x00000000"/><enum name="center" value="0x00000001"/><enum name="bottom" value="0x00000002"/></attr><attr name="pv_progressMode"/><attr name="pv_progress"/><attr name="pv_secondaryProgress"/></declare-styleable>
     <declare-styleable name="ListPopupWindow"><attr name="android:dropDownVerticalOffset"/><attr name="android:dropDownHorizontalOffset"/></declare-styleable>
-    <declare-styleable name="LoadingImageView"><attr name="imageAspectRatioAdjust">
-<enum name="none" value="0"/>
-
-<enum name="adjust_width" value="1"/>
-
-<enum name="adjust_height" value="2"/>
-
-</attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
     <declare-styleable name="MDRootLayout"><attr format="boolean" name="md_reduce_padding_no_title_no_buttons"/></declare-styleable>
-    <declare-styleable name="MapAttrs"><attr name="mapType">
-<enum name="none" value="0"/>
-
-<enum name="normal" value="1"/>
-
-<enum name="satellite" value="2"/>
-
-<enum name="terrain" value="3"/>
-
-<enum name="hybrid" value="4"/>
-
-</attr><attr format="float" name="cameraBearing"/><attr format="float" name="cameraTargetLat"/><attr format="float" name="cameraTargetLng"/><attr format="float" name="cameraTilt"/><attr format="float" name="cameraZoom"/><attr format="boolean" name="liteMode"/><attr format="boolean" name="uiCompass"/><attr format="boolean" name="uiRotateGestures"/><attr format="boolean" name="uiScrollGestures"/><attr format="boolean" name="uiTiltGestures"/><attr format="boolean" name="uiZoomControls"/><attr format="boolean" name="uiZoomGestures"/><attr format="boolean" name="useViewLifecycle"/><attr format="boolean" name="zOrderOnTop"/><attr format="boolean" name="uiMapToolbar"/><attr format="boolean" name="ambientEnabled"/><attr format="float" name="cameraMinZoomPreference"/><attr format="float" name="cameraMaxZoomPreference"/><attr format="float" name="latLngBoundsSouthWestLatitude"/><attr format="float" name="latLngBoundsSouthWestLongitude"/><attr format="float" name="latLngBoundsNorthEastLatitude"/><attr format="float" name="latLngBoundsNorthEastLongitude"/></declare-styleable>
     <declare-styleable name="MaterialProgressBar"><attr format="enum" name="mpb_progressStyle">
             <enum name="circular" value="0"/>
             <enum name="horizontal" value="1"/>
@@ -749,13 +625,6 @@
     <declare-styleable name="MenuView"><attr name="android:itemTextAppearance"/><attr name="android:horizontalDivider"/><attr name="android:verticalDivider"/><attr name="android:headerBackground"/><attr name="android:itemBackground"/><attr name="android:windowAnimationStyle"/><attr name="android:itemIconDisabledAlpha"/><attr format="boolean" name="preserveIconSpacing"/><attr format="reference" name="subMenuArrow"/></declare-styleable>
     <declare-styleable name="NavigationDrawerDrawable"><attr format="reference" name="nd_ripple"/><attr format="reference" name="nd_icon"/></declare-styleable>
     <declare-styleable name="NavigationView"><attr name="android:background"/><attr name="android:fitsSystemWindows"/><attr name="android:maxWidth"/><attr name="elevation"/><attr format="reference" name="menu"/><attr format="color" name="itemIconTint"/><attr format="color" name="itemTextColor"/><attr format="reference" name="itemBackground"/><attr format="reference" name="itemTextAppearance"/><attr format="reference" name="headerLayout"/></declare-styleable>
-    <declare-styleable name="NumberPicker"><attr format="dimension" name="np_width"/><attr format="dimension" name="np_height"/><attr format="color" name="np_dividerColor"/><attr format="dimension" name="np_dividerDistance"/><attr format="dimension" name="np_dividerThickness"/><attr format="string" name="np_formatter"/><attr format="integer" name="np_max"/><attr format="integer" name="np_min"/><attr format="enum" name="np_order">
-            <enum name="ascending" value="0"/>
-            <enum name="descending" value="1"/>
-        </attr><attr format="enum" name="np_orientation">
-            <enum name="horizontal" value="0"/>
-            <enum name="vertical" value="1"/>
-        </attr><attr format="color" name="np_selectedTextColor"/><attr format="dimension" name="np_selectedTextSize"/><attr format="color" name="np_textColor"/><attr format="dimension" name="np_textSize"/><attr format="string" name="np_typeface"/><attr format="integer" name="np_value"/><attr format="integer" name="np_wheelItemCount"/><attr format="boolean" name="np_wrapSelectorWheel"/></declare-styleable>
     <declare-styleable name="PopupWindow"><attr format="boolean" name="overlapAnchor"/><attr name="android:popupBackground"/><attr name="android:popupAnimationStyle"/></declare-styleable>
     <declare-styleable name="PopupWindowBackgroundState"><attr format="boolean" name="state_above_anchor"/></declare-styleable>
     <declare-styleable name="Preference"><attr format="boolean" name="useStockLayout"/></declare-styleable>
@@ -768,28 +637,11 @@
     <declare-styleable name="ScrimInsetsFrameLayout"><attr format="color|reference" name="insetForeground"/></declare-styleable>
     <declare-styleable name="ScrollingViewBehavior_Layout"><attr format="dimension" name="behavior_overlapTop"/></declare-styleable>
     <declare-styleable name="SearchView"><attr format="reference" name="layout"/><attr format="boolean" name="iconifiedByDefault"/><attr name="android:maxWidth"/><attr format="string" name="queryHint"/><attr format="string" name="defaultQueryHint"/><attr name="android:imeOptions"/><attr name="android:inputType"/><attr format="reference" name="closeIcon"/><attr format="reference" name="goIcon"/><attr format="reference" name="searchIcon"/><attr format="reference" name="searchHintIcon"/><attr format="reference" name="voiceIcon"/><attr format="reference" name="commitIcon"/><attr format="reference" name="suggestionRowLayout"/><attr format="reference" name="queryBackground"/><attr format="reference" name="submitBackground"/><attr name="android:focusable"/></declare-styleable>
-    <declare-styleable name="SelectableRoundedImageView"><attr format="dimension" name="sriv_left_top_corner_radius"/><attr format="dimension" name="sriv_right_top_corner_radius"/><attr format="dimension" name="sriv_left_bottom_corner_radius"/><attr format="dimension" name="sriv_right_bottom_corner_radius"/><attr format="dimension" name="sriv_border_width"/><attr format="color" name="sriv_border_color"/><attr format="boolean" name="sriv_oval"/><attr name="android:scaleType"/></declare-styleable>
-    <declare-styleable name="SignInButton"><attr format="reference" name="buttonSize">
-<enum name="standard" value="0"/>
-
-<enum name="wide" value="1"/>
-
-<enum name="icon_only" value="2"/>
-
-</attr><attr format="reference" name="colorScheme">
-<enum name="dark" value="0"/>
-
-<enum name="light" value="1"/>
-
-<enum name="auto" value="2"/>
-
-</attr><attr format="reference|string" name="scopeUris"/></declare-styleable>
     <declare-styleable name="SimpleDialog"><attr format="reference" name="di_messageTextAppearance"/><attr format="color|reference" name="di_messageTextColor"/><attr format="reference" name="di_radioButtonStyle"/><attr format="reference" name="di_checkBoxStyle"/><attr format="dimension|reference" name="di_itemHeight"/><attr format="reference" name="di_itemTextAppearance"/></declare-styleable>
     <declare-styleable name="Slider"><attr format="reference|dimension" name="sl_trackSize"/><attr format="reference|color" name="sl_primaryColor"/><attr format="reference|color" name="sl_secondaryColor"/><attr format="integer" name="sl_trackCap"><enum name="butt" value="0x00000000"/><enum name="round" value="0x00000001"/><enum name="square" value="0x00000002"/></attr><attr format="reference|dimension" name="sl_thumbBorderSize"/><attr format="reference|dimension" name="sl_thumbRadius"/><attr format="reference|dimension" name="sl_thumbFocusRadius"/><attr format="reference|integer" name="sl_travelAnimDuration"/><attr format="reference|integer" name="sl_transformAnimDuration"/><attr format="reference" name="sl_interpolator"/><attr format="reference|integer" name="sl_minValue"/><attr format="reference|integer" name="sl_maxValue"/><attr format="reference|integer" name="sl_stepValue"/><attr format="reference|integer" name="sl_value"/><attr format="reference|boolean" name="sl_discreteMode"/><attr format="string|reference" name="sl_fontFamily"/><attr format="integer" name="sl_textStyle"><enum name="normal" value="0"/><enum name="bold" value="1"/><enum name="italic" value="2"/><enum name="bold_italic" value="3"/></attr><attr format="reference|dimension" name="sl_textSize"/><attr format="reference|color" name="sl_textColor"/><attr format="reference|boolean" name="sl_alwaysFillThumb"/><attr format="reference|dimension" name="sl_baselineOffset"/><attr name="android:gravity"/><attr name="android:enabled"/></declare-styleable>
     <declare-styleable name="SnackBar"><attr format="reference|color" name="sb_backgroundColor"/><attr format="reference|dimension" name="sb_backgroundCornerRadius"/><attr format="reference|dimension" name="sb_horizontalPadding"/><attr format="reference|dimension" name="sb_verticalPadding"/><attr format="reference|dimension|integer" name="sb_width"><enum name="match_parent" value="-1"/><enum name="wrap_content" value="-2"/></attr><attr format="reference|dimension" name="sb_minWidth"/><attr format="reference|dimension" name="sb_maxWidth"/><attr format="reference|dimension|integer" name="sb_height"><enum name="match_parent" value="-1"/><enum name="wrap_content" value="-2"/></attr><attr format="reference|dimension" name="sb_minHeight"/><attr format="reference|dimension" name="sb_maxHeight"/><attr format="reference|dimension" name="sb_marginStart"/><attr format="reference|dimension" name="sb_marginBottom"/><attr format="reference|dimension" name="sb_textSize"/><attr format="reference|color" name="sb_textColor"/><attr format="reference" name="sb_textAppearance"/><attr format="reference|string" name="sb_text"/><attr format="boolean" name="sb_singleLine"/><attr format="reference|integer" name="sb_maxLines"/><attr format="reference|integer" name="sb_lines"/><attr format="integer" name="sb_ellipsize"><enum name="start" value="0x00000001"/><enum name="middle" value="0x00000002"/><enum name="end" value="0x00000003"/><enum name="marquee" value="0x00000004"/></attr><attr format="reference|dimension" name="sb_actionTextSize"/><attr format="reference|color" name="sb_actionTextColor"/><attr format="reference" name="sb_actionTextAppearance"/><attr format="reference|string" name="sb_actionText"/><attr format="reference" name="sb_actionRipple"/><attr format="reference|integer" name="sb_duration"/><attr format="reference" name="sb_inAnimation"/><attr format="reference" name="sb_outAnimation"/><attr format="boolean" name="sb_removeOnDismiss"/></declare-styleable>
     <declare-styleable name="SnackbarLayout"><attr name="android:maxWidth"/><attr name="elevation"/><attr format="dimension" name="maxActionInlineWidth"/></declare-styleable>
     <declare-styleable name="Spinner"><attr name="android:prompt"/><attr name="popupTheme"/><attr name="android:popupBackground"/><attr name="android:dropDownWidth"/><attr name="android:entries"/><attr name="android:gravity"/><attr name="android:minWidth"/><attr name="android:minHeight"/><attr format="boolean" name="spn_disableChildrenWhenDisabled"/><attr format="boolean" name="spn_labelEnable"/><attr format="reference|dimension" name="spn_labelPadding"/><attr format="reference|dimension" name="spn_labelTextSize"/><attr format="reference|color" name="spn_labelTextColor"/><attr format="reference" name="spn_labelTextAppearance"/><attr format="integer" name="spn_labelEllipsize"><enum name="start" value="0x00000001"/><enum name="middle" value="0x00000002"/><enum name="end" value="0x00000003"/><enum name="marquee" value="0x00000004"/></attr><attr format="string|reference" name="spn_label"/><attr format="reference" name="spn_popupItemAnimation"/><attr format="integer" name="spn_popupItemAnimOffset"/><attr format="reference|color" name="spn_arrowColor"/><attr format="reference|dimension" name="spn_arrowSize"/><attr format="reference|dimension" name="spn_arrowPadding"/><attr format="integer" name="spn_arrowAnimDuration"/><attr format="reference" name="spn_arrowInterpolator"/><attr format="boolean" name="spn_arrowAnimClockwise"/><attr format="boolean" name="spn_arrowSwitchMode"/><attr format="reference|color" name="spn_dividerColor"/><attr format="reference|dimension" name="spn_dividerHeight"/><attr format="reference|dimension" name="spn_dividerPadding"/><attr format="reference|integer" name="spn_dividerAnimDuration"/></declare-styleable>
-    <declare-styleable name="SwipeFlingAdapterView"><attr format="reference" name="SwipeFlingStyle"/><attr format="float" name="rotation_degrees"/><attr format="integer" name="min_adapter_stack"/><attr format="integer" name="max_visible"/></declare-styleable>
     <declare-styleable name="Switch"><attr format="reference|dimension" name="sw_trackSize"/><attr format="reference|color" name="sw_trackColor"/><attr format="integer" name="sw_trackCap"><enum name="butt" value="0x00000000"/><enum name="round" value="0x00000001"/><enum name="square" value="0x00000002"/></attr><attr format="reference|color" name="sw_thumbColor"/><attr format="reference|dimension" name="sw_thumbRadius"/><attr format="reference|dimension" name="sw_thumbElevation"/><attr format="reference|integer" name="sw_animDuration"/><attr format="reference" name="sw_interpolator"/><attr name="android:gravity"/><attr name="android:checked"/></declare-styleable>
     <declare-styleable name="SwitchCompat"><attr name="android:thumb"/><attr format="color" name="thumbTint"/><attr name="thumbTintMode">
             
@@ -851,7 +703,6 @@
             
             <flag name="bottom" value="0x50"/>
         </attr><attr format="reference" name="collapseIcon"/><attr format="string" name="collapseContentDescription"/><attr name="popupTheme"/><attr format="reference" name="navigationIcon"/><attr format="string" name="navigationContentDescription"/><attr name="logo"/><attr format="string" name="logoDescription"/><attr format="color" name="titleTextColor"/><attr format="color" name="subtitleTextColor"/><attr name="android:minHeight"/></declare-styleable>
-    <declare-styleable name="VideoControllerView"><attr format="reference" name="play_drawable"/><attr format="reference" name="pause_drawable"/><attr format="reference" name="enter_fullscreen_drawable"/><attr format="reference" name="exit_fullscreen_drawable"/><attr format="reference" name="ffwd_drawable"/><attr format="reference" name="rew_drawable"/><attr format="color" name="progress_color"/></declare-styleable>
     <declare-styleable name="View"><attr format="dimension" name="paddingStart"/><attr format="dimension" name="paddingEnd"/><attr name="android:focusable"/><attr format="reference" name="theme"/><attr name="android:theme"/><attr name="android:background"/><attr name="android:backgroundTint"/><attr name="android:backgroundTintMode"/><attr name="android:elevation"/><attr name="android:fadeScrollbars"/><attr name="android:fadingEdgeLength"/><attr name="android:minHeight"/><attr name="android:minWidth"/><attr name="android:padding"/><attr name="android:paddingBottom"/><attr name="android:paddingEnd"/><attr name="android:paddingLeft"/><attr name="android:paddingRight"/><attr name="android:paddingStart"/><attr name="android:paddingTop"/><attr name="android:requiresFadingEdge"/><attr name="android:scrollbarDefaultDelayBeforeFade"/><attr name="android:scrollbarFadeDuration"/><attr name="android:scrollbarSize"/><attr name="android:scrollbarStyle"/><attr name="android:soundEffectsEnabled"/><attr name="android:textAlignment"/><attr name="android:textDirection"/><attr name="android:visibility"/><attr name="android:layoutDirection"/><attr name="android:src"/></declare-styleable>
     <declare-styleable name="ViewBackgroundHelper"><attr name="android:background"/><attr format="color" name="backgroundTint"/><attr name="backgroundTintMode">
             
@@ -869,12 +720,59 @@
         </attr></declare-styleable>
     <declare-styleable name="ViewStubCompat"><attr name="android:layout"/><attr name="android:inflatedId"/><attr name="android:id"/></declare-styleable>
     <declare-styleable name="YearPicker"><attr name="dp_yearMin"/><attr name="dp_yearMax"/><attr name="dp_year"/><attr format="dimension|reference" name="dp_yearTextSize"/><attr format="dimension|reference" name="dp_yearItemHeight"/><attr name="dp_textHighlightColor"/><attr name="dp_textColor"/><attr name="dp_selectionColor"/><attr name="dp_animDuration"/><attr name="dp_inInterpolator"/><attr name="dp_outInterpolator"/><attr name="dp_fontFamily"/><attr name="dp_textStyle"/></declare-styleable>
-    <declare-styleable name="ZoomageView"><attr format="boolean" name="zoomage_zoomable"/><attr format="boolean" name="zoomage_translatable"/><attr format="boolean" name="zoomage_restrictBounds"/><attr format="boolean" name="zoomage_animateOnReset"/><attr format="boolean" name="zoomage_autoCenter"/><attr format="float" name="zoomage_minScale"/><attr format="float" name="zoomage_maxScale"/><attr format="enum" name="zoomage_autoResetMode">
-            <enum name="UNDER" value="0"/>
-            <enum name="OVER" value="1"/>
-            <enum name="ALWAYS" value="2"/>
-            <enum name="NEVER" value="3"/>
+    <declare-styleable name="mapbox_BubbleLayout"><attr format="dimension|reference" name="mapbox_bl_arrowWidth"/><attr format="dimension|reference" name="mapbox_bl_cornersRadius"/><attr format="dimension|reference" name="mapbox_bl_arrowHeight"/><attr format="dimension|reference" name="mapbox_bl_arrowPosition"/><attr format="color|reference" name="mapbox_bl_bubbleColor"/><attr format="dimension|reference" name="mapbox_bl_strokeWidth"/><attr format="color|reference" name="mapbox_bl_strokeColor"/><attr format="enum" name="mapbox_bl_arrowDirection">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+            <enum name="top" value="2"/>
+            <enum name="bottom" value="3"/>
         </attr></declare-styleable>
+    <declare-styleable name="mapbox_LocationComponent"><attr format="reference" name="mapbox_foregroundDrawable"/><attr format="color" name="mapbox_foregroundTintColor"/><attr format="reference" name="mapbox_backgroundDrawable"/><attr format="color" name="mapbox_backgroundTintColor"/><attr format="reference" name="mapbox_bearingDrawable"/><attr format="color" name="mapbox_bearingTintColor"/><attr format="reference" name="mapbox_gpsDrawable"/><attr format="reference" name="mapbox_foregroundDrawableStale"/><attr format="color" name="mapbox_foregroundStaleTintColor"/><attr format="reference" name="mapbox_backgroundDrawableStale"/><attr format="color" name="mapbox_backgroundStaleTintColor"/><attr format="float" name="mapbox_accuracyAlpha"/><attr format="color" name="mapbox_accuracyColor"/><attr format="dimension" name="mapbox_elevation"/><attr format="boolean" name="mapbox_enableStaleState"/><attr format="integer" min="0" name="mapbox_staleStateTimeout"/><attr format="integer" name="mapbox_iconPaddingLeft"/><attr format="integer" name="mapbox_iconPaddingTop"/><attr format="integer" name="mapbox_iconPaddingRight"/><attr format="integer" name="mapbox_iconPaddingBottom"/><attr format="string" name="mapbox_layer_below"/><attr format="float" name="mapbox_maxZoomIconScale"/><attr format="float" name="mapbox_minZoomIconScale"/><attr format="boolean" name="mapbox_trackingGesturesManagement"/><attr format="dimension" name="mapbox_trackingInitialMoveThreshold"/><attr format="dimension" name="mapbox_trackingMultiFingerMoveThreshold"/><attr format="float" name="mapbox_trackingAnimationDurationMultiplier"/><attr format="boolean" name="mapbox_compassAnimationEnabled"/><attr format="boolean" name="mapbox_accuracyAnimationEnabled"/></declare-styleable>
+    <declare-styleable name="mapbox_MapView"><attr format="string" name="mapbox_apiBaseUrl"/><attr format="string" name="mapbox_localIdeographFontFamily"/><attr format="boolean" name="mapbox_cross_source_collisions"/><attr format="float" name="mapbox_cameraTargetLat"/><attr format="float" name="mapbox_cameraTargetLng"/><attr format="float" name="mapbox_cameraZoom"/><attr format="float" name="mapbox_cameraBearing"/><attr format="float" name="mapbox_cameraTilt"/><attr format="float" name="mapbox_cameraZoomMax"/><attr format="float" name="mapbox_cameraZoomMin"/><attr format="boolean" name="mapbox_uiZoomGestures"/><attr format="boolean" name="mapbox_uiScrollGestures"/><attr format="boolean" name="mapbox_uiRotateGestures"/><attr format="boolean" name="mapbox_uiTiltGestures"/><attr format="boolean" name="mapbox_uiDoubleTapGestures"/><attr format="boolean" name="mapbox_uiQuickZoomGestures"/><attr format="boolean" name="mapbox_uiCompass"/><attr name="mapbox_uiCompassGravity">
+            <flag name="top" value="0x30"/>
+            <flag name="bottom" value="0x50"/>
+            <flag name="left" value="0x03"/>
+            <flag name="right" value="0x05"/>
+            <flag name="center_vertical" value="0x10"/>
+            <flag name="fill_vertical" value="0x70"/>
+            <flag name="center_horizontal" value="0x01"/>
+            <flag name="fill_horizontal" value="0x07"/>
+            <flag name="center" value="0x11"/>
+            <flag name="fill" value="0x77"/>
+            <flag name="clip_vertical" value="0x80"/>
+            <flag name="clip_horizontal" value="0x08"/>
+            <flag name="start" value="0x00800003"/>
+            <flag name="end" value="0x00800005"/>
+        </attr><attr format="dimension" name="mapbox_uiCompassMarginLeft"/><attr format="dimension" name="mapbox_uiCompassMarginTop"/><attr format="dimension" name="mapbox_uiCompassMarginRight"/><attr format="dimension" name="mapbox_uiCompassMarginBottom"/><attr format="boolean" name="mapbox_uiCompassFadeFacingNorth"/><attr format="reference" name="mapbox_uiCompassDrawable"/><attr format="boolean" name="mapbox_uiLogo"/><attr name="mapbox_uiLogoGravity">
+            <flag name="top" value="0x30"/>
+            <flag name="bottom" value="0x50"/>
+            <flag name="left" value="0x03"/>
+            <flag name="right" value="0x05"/>
+            <flag name="center_vertical" value="0x10"/>
+            <flag name="fill_vertical" value="0x70"/>
+            <flag name="center_horizontal" value="0x01"/>
+            <flag name="fill_horizontal" value="0x07"/>
+            <flag name="center" value="0x11"/>
+            <flag name="fill" value="0x77"/>
+            <flag name="clip_vertical" value="0x80"/>
+            <flag name="clip_horizontal" value="0x08"/>
+            <flag name="start" value="0x00800003"/>
+            <flag name="end" value="0x00800005"/>
+        </attr><attr format="dimension" name="mapbox_uiLogoMarginLeft"/><attr format="dimension" name="mapbox_uiLogoMarginTop"/><attr format="dimension" name="mapbox_uiLogoMarginRight"/><attr format="dimension" name="mapbox_uiLogoMarginBottom"/><attr format="boolean" name="mapbox_uiAttribution"/><attr name="mapbox_uiAttributionGravity">
+            <flag name="top" value="0x30"/>
+            <flag name="bottom" value="0x50"/>
+            <flag name="left" value="0x03"/>
+            <flag name="right" value="0x05"/>
+            <flag name="center_vertical" value="0x10"/>
+            <flag name="fill_vertical" value="0x70"/>
+            <flag name="center_horizontal" value="0x01"/>
+            <flag name="fill_horizontal" value="0x07"/>
+            <flag name="center" value="0x11"/>
+            <flag name="fill" value="0x77"/>
+            <flag name="clip_vertical" value="0x80"/>
+            <flag name="clip_horizontal" value="0x08"/>
+            <flag name="start" value="0x00800003"/>
+            <flag name="end" value="0x00800005"/>
+        </attr><attr format="dimension" name="mapbox_uiAttributionMarginLeft"/><attr format="dimension" name="mapbox_uiAttributionMarginTop"/><attr format="dimension" name="mapbox_uiAttributionMarginRight"/><attr format="dimension" name="mapbox_uiAttributionMarginBottom"/><attr format="color" name="mapbox_uiAttributionTintColor"/><attr format="boolean" name="mapbox_renderTextureMode"/><attr format="boolean" name="mapbox_renderTextureTranslucentSurface"/><attr format="color" name="mapbox_foregroundLoadColor"/><attr format="boolean" name="mapbox_enableTilePrefetch"/><attr format="boolean" name="mapbox_enableZMediaOverlay"/><attr format="float" name="mapbox_pixelRatio"/></declare-styleable>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
     <dimen name="abc_action_bar_content_inset_with_nav">72dp</dimen>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
@@ -1011,8 +909,23 @@
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
-    <dimen name="list_item_padding">16dp</dimen>
-    <dimen name="list_padding">0dp</dimen>
+    <dimen name="mapbox_defaultMultiTapMovementThreshold">5dp</dimen>
+    <dimen name="mapbox_defaultMutliFingerSpanThreshold">55dp</dimen>
+    <dimen name="mapbox_defaultScaleSpanSinceStartThreshold">7dp</dimen>
+    <dimen name="mapbox_defaultShovePixelThreshold">16dp</dimen>
+    <dimen name="mapbox_eight_dp">8dp</dimen>
+    <dimen name="mapbox_four_dp">4dp</dimen>
+    <dimen name="mapbox_infowindow_margin">8dp</dimen>
+    <dimen name="mapbox_infowindow_tipview_width">8dp</dimen>
+    <dimen name="mapbox_internalScaleMinSpan23">10mm</dimen>
+    <dimen name="mapbox_internalScaleMinSpan24">6mm</dimen>
+    <dimen name="mapbox_locationComponentTrackingInitialMoveThreshold">25dp</dimen>
+    <dimen name="mapbox_locationComponentTrackingMultiFingerMoveThreshold">400dp</dimen>
+    <dimen name="mapbox_minimum_angular_velocity">0.025dp</dimen>
+    <dimen name="mapbox_minimum_scale_span_when_rotating">100dp</dimen>
+    <dimen name="mapbox_minimum_scale_velocity">150dp</dimen>
+    <dimen name="mapbox_my_locationview_outer_circle">18dp</dimen>
+    <dimen name="mapbox_ninety_two_dp">92dp</dimen>
     <dimen name="md_action_corner_radius">2dp</dimen>
     <dimen name="md_bg_corner_radius">2dp</dimen>
     <dimen name="md_button_frame_vertical_padding">8dp</dimen>
@@ -1084,11 +997,14 @@
     <item name="action_bar_spinner" type="id"/>
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
+    <item name="dataBinding" type="id"/>
     <item name="ghost_view" type="id"/>
     <item name="home" type="id"/>
     <item name="item_touch_helper_previous_elevation" type="id"/>
     <item name="line1" type="id"/>
     <item name="line3" type="id"/>
+    <item name="onAttachStateChangeListener" type="id"/>
+    <item name="onDateChanged" type="id"/>
     <item name="parent_matrix" type="id"/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
@@ -1099,6 +1015,7 @@
     <item name="tag_transition_group" type="id"/>
     <item name="text" type="id"/>
     <item name="text2" type="id"/>
+    <item name="textWatcher" type="id"/>
     <item name="textinput_counter" type="id"/>
     <item name="textinput_error" type="id"/>
     <item name="title" type="id"/>
@@ -1116,11 +1033,18 @@
     <integer name="cancel_button_image_alpha">127</integer>
     <integer name="config_tooltipAnimTime">150</integer>
     <integer name="design_snackbar_text_max_lines">2</integer>
-    <integer name="google_play_services_version">12451000</integer>
     <integer name="hide_password_duration">320</integer>
     <integer name="show_password_duration">200</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
     <string name="APPUPDATE_title">Walker</string>
+    <string name="MENU.about">A propos</string>
+    <string name="MENU.dashboard">TABLEAU DE BORD</string>
+    <string name="MENU.favorites">Favoris</string>
+    <string name="MENU.healthbook">CARNET DE SANTÉ</string>
+    <string name="MENU.logOut">DÉCONNEXION</string>
+    <string name="MENU.profile">Profil</string>
+    <string name="MENU.programs">PROGRAMMES</string>
+    <string name="MENU.title">MENU</string>
     <string name="NETWORK_connectionErrorMessage">Erreur réseau</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
@@ -1154,40 +1078,30 @@
     <string name="app_name">Walker</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
-    <string name="cd_forward_media_button">Forward media button</string>
-    <string name="cd_fullscreen_media_button">Fullscreen media button</string>
-    <string name="cd_pause_media_button">Pause media button</string>
-    <string name="cd_rewind_media_button">Rewind media button</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
-    <string name="choose_file">Select a file</string>
-    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
-    <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
-    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
-    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Install</string>
-    <string name="common_google_play_services_install_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your device.</string>
-    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
-    <string name="common_google_play_services_notification_channel_name">Google Play services availability</string>
-    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
-    <string name="common_google_play_services_unknown_issue"><ns1:g id="app_name">%1$s</ns1:g> is having trouble with Google Play services. Please try again.</string>
-    <string name="common_google_play_services_unsupported_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are not supported by your device.</string>
-    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
-    <string msgid="9053896323427875356" name="common_google_play_services_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update Google Play services.</string>
-    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
-    <string name="common_google_play_services_updating_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are currently updating.</string>
-    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
-    <string name="common_open_on_phone">Open on phone</string>
-    <string name="common_signin_button_text">Sign in</string>
-    <string name="common_signin_button_text_long">Sign in with Google</string>
-    <string name="default_web_client_id" translatable="false">438961830698-l23et2rrceejum20tto98hiadh333qb0.apps.googleusercontent.com</string>
-    <string name="empty_directory">Empty Directory</string>
-    <string name="error_selecting_file">Error selecting File</string>
-    <string name="firebase_database_url" translatable="false">https://walker-f4d6d.firebaseio.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">438961830698</string>
-    <string name="google_api_key" translatable="false">AIzaSyBYPh_YPRufuImhzzu8RJkLtQOGPQdBDYM</string>
-    <string name="google_app_id" translatable="false">1:438961830698:android:bd4b521b9f5dd10d</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBYPh_YPRufuImhzzu8RJkLtQOGPQdBDYM</string>
-    <string name="google_storage_bucket" translatable="false">walker-f4d6d.appspot.com</string>
-    <string name="internal_storage">Internal storage</string>
+    <string name="mapbox_attributionErrorNoBrowser">No web browser installed on device, can\'t open web page.</string>
+    <string name="mapbox_attributionTelemetryMessage">You are helping to make OpenStreetMap and Mapbox maps better by contributing anonymous usage data.</string>
+    <string name="mapbox_attributionTelemetryNegative">Disagree</string>
+    <string name="mapbox_attributionTelemetryNeutral">More info</string>
+    <string name="mapbox_attributionTelemetryPositive">Agree</string>
+    <string name="mapbox_attributionTelemetryTitle">Make Mapbox Maps Better</string>
+    <string name="mapbox_attributionsDialogTitle">Mapbox Maps SDK for Android</string>
+    <string name="mapbox_attributionsIconContentDescription">Attribution icon. Activate to show attribution dialog.</string>
+    <string name="mapbox_compassContentDescription">Map compass. Activate to reset the map rotation to North.</string>
+    <string name="mapbox_mapActionDescription">Showing a Map created with Mapbox. Scroll by dragging two fingers. Zoom by pinching two fingers.</string>
+    <string name="mapbox_myLocationViewContentDescription">Location View. This shows your location on the map.</string>
+    <string name="mapbox_offline_error_region_definition_invalid">Provided OfflineRegionDefinition doesn\'t fit the world bounds: %s</string>
+    <string name="mapbox_style_dark" translatable="false">mapbox://styles/mapbox/dark-v10</string>
+    <string name="mapbox_style_light" translatable="false">mapbox://styles/mapbox/light-v10</string>
+    <string name="mapbox_style_mapbox_streets" translatable="false">mapbox://styles/mapbox/streets-v11</string>
+    <string name="mapbox_style_outdoors" translatable="false">mapbox://styles/mapbox/outdoors-v11</string>
+    <string name="mapbox_style_satellite" translatable="false">mapbox://styles/mapbox/satellite-v9</string>
+    <string name="mapbox_style_satellite_streets" translatable="false">mapbox://styles/mapbox/satellite-streets-v11</string>
+    <string name="mapbox_style_traffic_day" translatable="false">mapbox://styles/mapbox/traffic-day-v2</string>
+    <string name="mapbox_style_traffic_night" translatable="false">mapbox://styles/mapbox/traffic-night-v2</string>
+    <string name="mapbox_telemetryImproveMap">Improve This Map</string>
+    <string name="mapbox_telemetryLink" translatable="false">https://www.mapbox.com/telemetry/</string>
+    <string name="mapbox_telemetrySettings">Telemetry Settings</string>
     <string name="md_back_label">Back</string>
     <string name="md_cancel_label">Cancel</string>
     <string name="md_choose_label">Choose</string>
@@ -1202,16 +1116,8 @@
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
-    <string name="project_id" translatable="false">walker-f4d6d</string>
-    <string name="rationale_ask">This app may not work correctly without the requested permissions.</string>
-    <string name="rationale_ask_again">
-        This app may not work correctly without the requested permissions.
-        Open the app settings screen to modify app permissions.
-    </string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="storage_removed">Storage was removed or unmounted.</string>
-    <string name="title_settings_dialog">Permissions Required</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
@@ -1221,20 +1127,30 @@
         <item name="android:windowEnterAnimation">@anim/design_bottom_sheet_slide_in</item>
         <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
     </style>
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorUmanlife</item>
-        <item name="colorPrimaryDark">@color/colorUmanlife</item>
+        <item name="colorPrimary">@color/colorWhite</item>
+        <item name="colorPrimaryDark">@color/colorWhite</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="actionMenuTextColor">@color/colorWhite</item>
-        <item name="android:actionBarSize">10dp</item>
-        <item name="actionBarSize">10dp</item>
+        <item name="android:actionBarSize">0dp</item>
+        <item name="actionBarSize">0dp</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
         <item name="android:listDivider">@color/colorWhite</item>
-        <item name="SwipeFlingStyle">@style/SwipeFling</item>
     </style>
-    <style name="AppTheme.Cyan" parent="Theme.AppCompat.NoActionBar">
-        ...
-        <item name="SwipeFlingStyle">@null</item>
+    <style name="AppThemeLight" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorTabView</item>
+        <item name="colorPrimaryDark">@color/colorTabView</item>
+        <item name="android:actionBarSize">40dp</item>
+        <item name="actionBarSize">40dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="colorAccent">@color/colorTabView</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+        <item name="android:textAllCaps">false</item>
     </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
@@ -2326,19 +2242,6 @@
         <item name="android:windowEnterAnimation">@null</item>
         <item name="android:windowExitAnimation">@null</item>
     </style>
-    <style name="EasyPermissions" parent="Theme.AppCompat.DayNight.DarkActionBar">
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-    </style>
-    <style name="EasyPermissions.Transparent">
-        <item name="android:windowIsTranslucent">true</item>
-        <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="android:windowContentOverlay">@null</item>
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowIsFloating">true</item>
-        <item name="android:backgroundDimEnabled">false</item>
-    </style>
     <style name="MD_ActionButton">
     <item name="android:layout_width">wrap_content</item>
     <item name="android:layout_height">@dimen/md_button_height</item>
@@ -3082,10 +2985,15 @@
         <item name="android:paddingLeft">@dimen/abc_action_bar_overflow_padding_start_material</item>
         <item name="android:paddingRight">@dimen/abc_action_bar_overflow_padding_end_material</item>
     </style>
-    <style name="SwipeFling">
-        <item name="rotation_degrees">15</item>
-        <item name="min_adapter_stack">6</item>
-        <item name="max_visible">4</item>
+    <style name="SCBSwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/colorGreenUman</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@color/colorBluedGrey</item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">@color/colorBluedGrey</item>
     </style>
     <style name="TextAppearance.AppCompat" parent="Base.TextAppearance.AppCompat"/>
     <style name="TextAppearance.AppCompat.Body1" parent="Base.TextAppearance.AppCompat.Body1"/>
@@ -3186,6 +3094,9 @@
     <style name="TextAppearance.Widget.AppCompat.Toolbar.Subtitle" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
     </style>
     <style name="TextAppearance.Widget.AppCompat.Toolbar.Title" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Title">
+    </style>
+    <style name="TextAppearence.App.active" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorGreenUman</item>
     </style>
     <style name="Theme.AppCompat" parent="Base.Theme.AppCompat"/>
     <style name="Theme.AppCompat.CompactMenu" parent="Base.Theme.AppCompat.CompactMenu"/>
@@ -3464,19 +3375,9 @@
     <style name="dialogTheme" parent="@android:style/Theme.Holo.Light">
         <item name="android:windowBackground">@color/transparent</item>
         <item name="android:title">Mon titre</item>
-        <item name="android:windowTitleBackgroundStyle">@color/colorBlueButton</item>
+        <item name="android:windowTitleBackgroundStyle">@color/colorBlack</item>
         <item name="android:layout_gravity">center_vertical</item>
         <item name="android:buttonStyle">@style/Base.Animation.AppCompat.Dialog</item>
-
-    </style>
-    <style name="fileChooserName">
-        <item name="android:drawablePadding">@dimen/list_item_padding</item>
-        <item name="android:ellipsize">end</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:maxLines">2</item>
-        <item name="android:paddingLeft">@dimen/list_item_padding</item>
-        <item name="android:paddingRight">@dimen/list_item_padding</item>
-        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
     </style>
     <style name="mCircularProgress">
         <item name="cpd_padding">0dp</item>
@@ -3484,10 +3385,27 @@
         <item name="cpd_maxSweepAngle">270</item>
         <item name="cpd_minSweepAngle">1</item>
         <item name="cpd_strokeSize">4dp</item>
-        <item name="cpd_strokeColor">@color/colorBlueButtonObjectives</item>
+        <item name="cpd_strokeColor">@color/colorGreenUman</item>
         <item name="cpd_strokeSecondaryColor">@android:color/transparent</item>
         <item name="cpd_reverse">false</item>
-        <item name="cpd_rotateDuration">1000</item>
+        <item name="cpd_rotateDuration">700</item>
+        <item name="cpd_transformDuration">600</item>
+        <item name="cpd_keepDuration">200</item>
+        <item name="cpd_transformInterpolator">@android:anim/decelerate_interpolator</item>
+        <item name="pv_progressMode">buffer</item>
+        <item name="cpd_inAnimDuration">0</item>
+        <item name="cpd_outAnimDuration">@android:integer/config_mediumAnimTime</item>
+    </style>
+    <style name="mCircularProgressEtiquetteChallengeCard">
+        <item name="cpd_padding">0dp</item>
+        <item name="cpd_initialAngle">0</item>
+        <item name="cpd_maxSweepAngle">270</item>
+        <item name="cpd_minSweepAngle">1</item>
+        <item name="cpd_strokeSize">4dp</item>
+        <item name="cpd_strokeColor">@color/colorEtiquetteGreenChallengeCard</item>
+        <item name="cpd_strokeSecondaryColor">@android:color/transparent</item>
+        <item name="cpd_reverse">false</item>
+        <item name="cpd_rotateDuration">700</item>
         <item name="cpd_transformDuration">600</item>
         <item name="cpd_keepDuration">200</item>
         <item name="cpd_transformInterpolator">@android:anim/decelerate_interpolator</item>
@@ -3504,7 +3422,7 @@
         <item name="cpd_strokeColor">@color/transparent</item>
         <item name="cpd_strokeSecondaryColor">@android:color/transparent</item>
         <item name="cpd_reverse">false</item>
-        <item name="cpd_rotateDuration">1000</item>
+        <item name="cpd_rotateDuration">700</item>
         <item name="cpd_transformDuration">600</item>
         <item name="cpd_keepDuration">200</item>
         <item name="cpd_transformInterpolator">@android:anim/decelerate_interpolator</item>
@@ -3512,9 +3430,79 @@
         <item name="cpd_inAnimDuration">0</item>
         <item name="cpd_outAnimDuration">@android:integer/config_mediumAnimTime</item>
     </style>
+    <style name="mCircularProgressWhite">
+        <item name="cpd_padding">0dp</item>
+        <item name="cpd_initialAngle">0</item>
+        <item name="cpd_maxSweepAngle">270</item>
+        <item name="cpd_minSweepAngle">1</item>
+        <item name="cpd_strokeSize">4dp</item>
+        <item name="cpd_strokeColor">@color/colorWhite</item>
+        <item name="cpd_strokeSecondaryColor">@android:color/transparent</item>
+        <item name="cpd_reverse">false</item>
+        <item name="cpd_rotateDuration">700</item>
+        <item name="cpd_transformDuration">600</item>
+        <item name="cpd_keepDuration">200</item>
+        <item name="cpd_transformInterpolator">@android:anim/decelerate_interpolator</item>
+        <item name="pv_progressMode">buffer</item>
+        <item name="cpd_inAnimDuration">0</item>
+        <item name="cpd_outAnimDuration">@android:integer/config_mediumAnimTime</item>
+    </style>
+    <style name="mapbox_LocationComponent">
+    <item name="mapbox_foregroundDrawable">@drawable/mapbox_user_icon</item>
+    <item name="mapbox_backgroundDrawable">@drawable/mapbox_user_stroke_icon</item>
+    <item name="mapbox_bearingDrawable">@drawable/mapbox_user_bearing_icon</item>
+    <item name="mapbox_gpsDrawable">@drawable/mapbox_user_puck_icon</item>
+
+    <item name="mapbox_foregroundDrawableStale">@drawable/mapbox_user_icon_stale</item>
+    <item name="mapbox_backgroundDrawableStale">@drawable/mapbox_user_stroke_icon</item>
+
+    <item name="mapbox_accuracyAlpha">0.15</item>
+    <item name="mapbox_accuracyColor">@color/mapbox_location_layer_blue</item>
+
+    <item name="mapbox_elevation">12dp</item>
+
+    <item name="mapbox_enableStaleState">true</item>
+    <item name="mapbox_staleStateTimeout">30000</item>
+
+    <!-- Location icon padding -->
+    <item name="mapbox_iconPaddingLeft">0</item>
+    <item name="mapbox_iconPaddingTop">0</item>
+    <item name="mapbox_iconPaddingRight">0</item>
+    <item name="mapbox_iconPaddingBottom">0</item>
+
+    <!-- Location icon scale based on map zoom levels -->
+    <item name="mapbox_maxZoomIconScale">1</item>
+    <item name="mapbox_minZoomIconScale">0.6</item>
+
+    <!-- Camera tracking settings -->
+    <item name="mapbox_trackingGesturesManagement">false</item>
+    <item name="mapbox_trackingInitialMoveThreshold">@dimen/mapbox_locationComponentTrackingInitialMoveThreshold</item>
+    <item name="mapbox_trackingMultiFingerMoveThreshold">@dimen/mapbox_locationComponentTrackingMultiFingerMoveThreshold</item>
+
+  </style>
     <style name="menu_drawer_style">
-        <item name="android:textColor">@color/colorWhite</item>
-        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:textColor">@color/colorDarkGrey</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:dividerPadding">10sp</item>
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:fontFamily">@font/gothamlight</item>
         <item name="android:listDivider">@color/colorWhite</item>
+    </style>
+    <style name="mySpinnerItemStyle" parent="android:style/Widget.ListView.DropDown">
+        <item name="android:fontFamily">@fonts/opensanslight</item>
+        <item name="android:divider">@color/colorLightGray</item>
+        <item name="android:dividerHeight">0dp</item>
+        <item name="android:textColor">@color/colorBluedGrey</item>
+        <item name="android:textColorHint">@color/colorBluedGrey</item>
+    </style>
+    <style name="timePickerStyle" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:title">Mon titre</item>
+        <item name="android:divider">@color/colorGreenUman</item>
+        <item name="android:textColor">@color/colorDarkGrey</item>
+        <item name="android:windowTitleBackgroundStyle">@color/colorBlack</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:buttonStyle">@style/Base.Animation.AppCompat.Dialog</item>
     </style>
 </resources>
